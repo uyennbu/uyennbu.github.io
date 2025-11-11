@@ -1,36 +1,11 @@
-name: Deploy Hugo Blog to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main  # Chạy khi có commit đẩy lên nhánh main
-
+name: GitHub Actions
+on: push
 jobs:
   deploy-website:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout: Tải source code từ Repo
-      - uses: actions/checkout@v3
-        with:
-          submodules: true  # Tải theme PaperMod (nếu là submodule)
-          fetch-depth: 0
-      
-      # 2. Setup Hugo: Cài đặt Hugo
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          
-      # 3. Build: Chạy lệnh Hugo để tạo thư mục public
-      - name: Build Hugo site
-        run: hugo --minify --baseURL https://nguyen451.github.io/
-        # Lưu ý: Nếu bạn có custom domain, bạn nên dùng baseURL là tên miền đó.
-        # Nếu dùng GitHub Pages, bạn phải thêm baseURL chính xác.
-        
-      # 4. Deploy: Đẩy nội dung thư mục public lên GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages  # Nhánh mà code tĩnh sẽ được đẩy lên
-          publish_dir: ./public     # Thư mục được tạo ra sau khi chạy 'hugo'
+    - uses: actions/checkout@v3
+    - uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
