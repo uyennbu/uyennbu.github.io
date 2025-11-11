@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/demo/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/demo/</loc>
-    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/example/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/demo/second/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/demo/first/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
@@ -14,7 +29,5 @@
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

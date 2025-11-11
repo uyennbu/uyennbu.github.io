@@ -1,7 +1,7 @@
 ---
 title: First Demo
 date: 2024-06-15
-draft: true
+draft: false
 cover:
     image: /img/Wen.png
     alt: Demo Cover Image
