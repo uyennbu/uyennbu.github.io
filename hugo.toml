@@ -17,7 +17,7 @@ theme = "PaperMod"
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+          inline = [['$', '$']]
 
 [params]
     ShowMenu = true
