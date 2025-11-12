@@ -15,7 +15,9 @@
 &lt;li&gt;posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="bayes-rule"&gt;Bayes&amp;rsquo; Rule&lt;/h2&gt;
-&lt;p&gt;$$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$&lt;/p&gt;</description></item><item><title>Chapter 2: Belief, Probbility, and Exchangeability</title><link>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</guid><description>&lt;h2 id="belief-function-and-probability"&gt;Belief function and Probability&lt;/h2&gt;
+$$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
+&lt;h3 id="using-bayes-inference-to-estimate-posterior-probability"&gt;Using Bayes inference to estimate posterior probability&lt;/h3&gt;
+&lt;h3 id="using-bayes-inference-to-estimate-parameter-in-a-predictive-model"&gt;Using Bayes inference to estimate parameter in a predictive model&lt;/h3&gt;</description></item><item><title>Chapter 2: Belief, Probbility, and Exchangeability</title><link>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</guid><description>&lt;h2 id="belief-function-and-probability"&gt;Belief function and Probability&lt;/h2&gt;
 &lt;h2 id="events-partitions-and-bayes-rule"&gt;Events, partitions, and Bayes&amp;rsquo; rule&lt;/h2&gt;
 &lt;h2 id="independence"&gt;Independence&lt;/h2&gt;
 &lt;h2 id="random-variables"&gt;Random variables&lt;/h2&gt;
