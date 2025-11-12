@@ -15,13 +15,13 @@ Bayes rule does not tell us what our beliefs should be, it tells us how should t
 
 Notation
 
-parameters: \(\theta\) (we call it parameter because we calculate y from it, in normal cases)
-dataset: \(y\) (sample of the population)
-sample space : \(\mathcal{Y}\) (all possible datasets)
-parameter space : \(\Theta\) (all possible parameters)
-prior distribution: \(p(\theta)\) (for each \(\theta \in \Theta\), \(p(\theta)\) is our belief that \(\theta\) represents the true population chracteristic)
-sampling method: \(p(y|\theta)\) (our belief that \(y\) should be observed if \(\theta\) is known)
-posterior distribution: \(p(\theta|y)\) (our belief that \(\theta\) is the true population characteristic after observing \(y\))
+parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases)
+dataset: $y$ (sample of the population)
+sample space : $\mathcal{Y}$ (all possible datasets)
+parameter space : $\Theta$ (all possible parameters)
+prior distribution: $p(\theta)$ (for each $\theta \in \Theta$, $p(\theta)$ is our belief that $\theta$ represents the true population chracteristic)
+sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known)
+posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$)
 
 Bayes&rsquo; Rule
 $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$Examples
@@ -96,7 +96,7 @@ Using Bayes inference to estimate parameter in a predictive model">
   MathJax = {
     tex: {
       displayMath: [['\[', '\]'], ['$$', '$$']],  
-      inlineMath: [['\(', '\)']]                  
+      inlineMath: [['$', '$']]                  
     },
     loader:{
       load: ['ui/safe']
@@ -106,7 +106,7 @@ Using Bayes inference to estimate parameter in a predictive model">
 <meta property="og:url" content="https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/">
   <meta property="og:site_name" content="Uyen&#39;s blog">
   <meta property="og:title" content="Chapter 1: Introduction and examples">
-  <meta property="og:description" content="Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes’ rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: \(\theta\) (we call it parameter because we calculate y from it, in normal cases) dataset: \(y\) (sample of the population) sample space : \(\mathcal{Y}\) (all possible datasets) parameter space : \(\Theta\) (all possible parameters) prior distribution: \(p(\theta)\) (for each \(\theta \in \Theta\), \(p(\theta)\) is our belief that \(\theta\) represents the true population chracteristic) sampling method: \(p(y|\theta)\) (our belief that \(y\) should be observed if \(\theta\) is known) posterior distribution: \(p(\theta|y)\) (our belief that \(\theta\) is the true population characteristic after observing \(y\)) Bayes’ Rule $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model">
+  <meta property="og:description" content="Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes’ rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases) dataset: $y$ (sample of the population) sample space : $\mathcal{Y}$ (all possible datasets) parameter space : $\Theta$ (all possible parameters) prior distribution: $p(\theta)$ (for each $\theta \in \Theta$, $p(\theta)$ is our belief that $\theta$ represents the true population chracteristic) sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known) posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$) Bayes’ Rule $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="book">
@@ -125,13 +125,13 @@ Bayes rule does not tell us what our beliefs should be, it tells us how should t
 
 Notation
 
-parameters: \(\theta\) (we call it parameter because we calculate y from it, in normal cases)
-dataset: \(y\) (sample of the population)
-sample space : \(\mathcal{Y}\) (all possible datasets)
-parameter space : \(\Theta\) (all possible parameters)
-prior distribution: \(p(\theta)\) (for each \(\theta \in \Theta\), \(p(\theta)\) is our belief that \(\theta\) represents the true population chracteristic)
-sampling method: \(p(y|\theta)\) (our belief that \(y\) should be observed if \(\theta\) is known)
-posterior distribution: \(p(\theta|y)\) (our belief that \(\theta\) is the true population characteristic after observing \(y\))
+parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases)
+dataset: $y$ (sample of the population)
+sample space : $\mathcal{Y}$ (all possible datasets)
+parameter space : $\Theta$ (all possible parameters)
+prior distribution: $p(\theta)$ (for each $\theta \in \Theta$, $p(\theta)$ is our belief that $\theta$ represents the true population chracteristic)
+sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known)
+posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$)
 
 Bayes&rsquo; Rule
 $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$Examples
@@ -165,11 +165,11 @@ Using Bayes inference to estimate parameter in a predictive model">
   "@type": "BlogPosting",
   "headline": "Chapter 1: Introduction and examples",
   "name": "Chapter 1: Introduction and examples",
-  "description": "Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes\u0026rsquo; rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: \\(\\theta\\) (we call it parameter because we calculate y from it, in normal cases) dataset: \\(y\\) (sample of the population) sample space : \\(\\mathcal{Y}\\) (all possible datasets) parameter space : \\(\\Theta\\) (all possible parameters) prior distribution: \\(p(\\theta)\\) (for each \\(\\theta \\in \\Theta\\), \\(p(\\theta)\\) is our belief that \\(\\theta\\) represents the true population chracteristic) sampling method: \\(p(y|\\theta)\\) (our belief that \\(y\\) should be observed if \\(\\theta\\) is known) posterior distribution: \\(p(\\theta|y)\\) (our belief that \\(\\theta\\) is the true population characteristic after observing \\(y\\)) Bayes\u0026rsquo; Rule $$p(\\theta|y) = \\frac{p(y|\\theta)p(\\theta)}{\\int_\\Theta p(y|\\tilde{\\theta})p(\\tilde{\\theta})d\\tilde{\\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model",
+  "description": "Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes\u0026rsquo; rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: $\\theta$ (we call it parameter because we calculate y from it, in normal cases) dataset: $y$ (sample of the population) sample space : $\\mathcal{Y}$ (all possible datasets) parameter space : $\\Theta$ (all possible parameters) prior distribution: $p(\\theta)$ (for each $\\theta \\in \\Theta$, $p(\\theta)$ is our belief that $\\theta$ represents the true population chracteristic) sampling method: $p(y|\\theta)$ (our belief that $y$ should be observed if $\\theta$ is known) posterior distribution: $p(\\theta|y)$ (our belief that $\\theta$ is the true population characteristic after observing $y$) Bayes\u0026rsquo; Rule $$p(\\theta|y) = \\frac{p(y|\\theta)p(\\theta)}{\\int_\\Theta p(y|\\tilde{\\theta})p(\\tilde{\\theta})d\\tilde{\\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model",
   "keywords": [
     "bayesian statistics"
   ],
-  "articleBody": "Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes’ rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: \\(\\theta\\) (we call it parameter because we calculate y from it, in normal cases) dataset: \\(y\\) (sample of the population) sample space : \\(\\mathcal{Y}\\) (all possible datasets) parameter space : \\(\\Theta\\) (all possible parameters) prior distribution: \\(p(\\theta)\\) (for each \\(\\theta \\in \\Theta\\), \\(p(\\theta)\\) is our belief that \\(\\theta\\) represents the true population chracteristic) sampling method: \\(p(y|\\theta)\\) (our belief that \\(y\\) should be observed if \\(\\theta\\) is known) posterior distribution: \\(p(\\theta|y)\\) (our belief that \\(\\theta\\) is the true population characteristic after observing \\(y\\)) Bayes’ Rule $$p(\\theta|y) = \\frac{p(y|\\theta)p(\\theta)}{\\int_\\Theta p(y|\\tilde{\\theta})p(\\tilde{\\theta})d\\tilde{\\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model ",
+  "articleBody": "Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes’ rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: $\\theta$ (we call it parameter because we calculate y from it, in normal cases) dataset: $y$ (sample of the population) sample space : $\\mathcal{Y}$ (all possible datasets) parameter space : $\\Theta$ (all possible parameters) prior distribution: $p(\\theta)$ (for each $\\theta \\in \\Theta$, $p(\\theta)$ is our belief that $\\theta$ represents the true population chracteristic) sampling method: $p(y|\\theta)$ (our belief that $y$ should be observed if $\\theta$ is known) posterior distribution: $p(\\theta|y)$ (our belief that $\\theta$ is the true population characteristic after observing $y$) Bayes’ Rule $$p(\\theta|y) = \\frac{p(y|\\theta)p(\\theta)}{\\int_\\Theta p(y|\\tilde{\\theta})p(\\tilde{\\theta})d\\tilde{\\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model ",
   "wordCount" : "149",
   "inLanguage": "en",
   "datePublished": "2025-11-12T00:00:00Z",
@@ -261,13 +261,13 @@ Using Bayes inference to estimate parameter in a predictive model">
 </ul>
 <h2 id="notation">Notation<a hidden class="anchor" aria-hidden="true" href="#notation">#</a></h2>
 <ul>
-<li>parameters: \(\theta\) (we call it parameter because we calculate y from it, in normal cases)</li>
-<li>dataset: \(y\) (sample of the population)</li>
-<li>sample space : \(\mathcal{Y}\) (all possible datasets)</li>
-<li>parameter space : \(\Theta\) (all possible parameters)</li>
-<li>prior distribution: \(p(\theta)\) (for each \(\theta \in \Theta\), \(p(\theta)\) is our belief that \(\theta\) represents the true population chracteristic)</li>
-<li>sampling method: \(p(y|\theta)\) (our belief that \(y\) should be observed if \(\theta\) is known)</li>
-<li>posterior distribution: \(p(\theta|y)\) (our belief that \(\theta\) is the true population characteristic after observing \(y\))</li>
+<li>parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases)</li>
+<li>dataset: $y$ (sample of the population)</li>
+<li>sample space : $\mathcal{Y}$ (all possible datasets)</li>
+<li>parameter space : $\Theta$ (all possible parameters)</li>
+<li>prior distribution: $p(\theta)$ (for each $\theta \in \Theta$, $p(\theta)$ is our belief that $\theta$ represents the true population chracteristic)</li>
+<li>sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known)</li>
+<li>posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$)</li>
 </ul>
 <h2 id="bayes-rule">Bayes&rsquo; Rule<a hidden class="anchor" aria-hidden="true" href="#bayes-rule">#</a></h2>
 $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$<h2 id="examples">Examples<a hidden class="anchor" aria-hidden="true" href="#examples">#</a></h2>
