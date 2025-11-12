@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/tags/demo/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/series/demo-series/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/demo/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,6 +15,9 @@
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/demo/second/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -27,7 +33,5 @@
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

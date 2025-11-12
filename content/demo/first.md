@@ -6,6 +6,7 @@ cover:
     image: /img/Wen.png
     alt: Demo Cover Image
     caption: An illustrative cover for the first demo
+series: ["Demo Series"]
 # tags: [demo, example]
 # categories: [demos]
 ---
