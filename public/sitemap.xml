@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nguyen451.github.io/series/a-first-course-in-bayesian-statistical-methods/</loc>
+    <loc>http://localhost:1313/series/a-first-course-in-bayesian-statistical-methods/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/tags/bayesian-statistics/</loc>
+    <loc>http://localhost:1313/tags/bayesian-statistics/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/book/</loc>
+    <loc>http://localhost:1313/book/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</loc>
+    <loc>http://localhost:1313/book/firstcoursebayes/ch1_intro/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</loc>
+    <loc>http://localhost:1313/book/firstcoursebayes/ch2_belief_prob_exchangeability/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</loc>
+    <loc>http://localhost:1313/book/islp/ch2_statistical_learning/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</loc>
+    <loc>http://localhost:1313/book/firstcoursebayes/ch3_one_prarameter_models/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/series/islp/</loc>
+    <loc>http://localhost:1313/series/islp/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/tags/statistics/</loc>
+    <loc>http://localhost:1313/tags/statistics/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/tags/demo/</loc>
+    <loc>http://localhost:1313/tags/demo/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/series/demo-series/</loc>
+    <loc>http://localhost:1313/series/demo-series/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/demo/</loc>
+    <loc>http://localhost:1313/demo/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/tags/example/</loc>
+    <loc>http://localhost:1313/tags/example/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/demo/second/</loc>
+    <loc>http://localhost:1313/demo/second/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/demo/first/</loc>
+    <loc>http://localhost:1313/demo/first/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nguyen451.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url>
 </urlset>
