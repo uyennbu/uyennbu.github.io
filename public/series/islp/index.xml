@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ISLP on Uyen&#39;s blog</title>
+    <link>https://nguyen451.github.io/series/islp/</link>
+    <description>Recent content in ISLP on Uyen&#39;s blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nguyen451.github.io/series/islp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 2: Introduction to Statistical Learning</title>
+      <link>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</guid>
+      <description>&lt;h2 id=&#34;what-is-statistical-learning&#34;&gt;What is Statistical Learning?&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

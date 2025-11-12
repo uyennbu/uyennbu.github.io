@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Uyen&#39;s blog</title>
-    <link>https://nguyen451.github.io/</link>
-    <description>Recent content on Uyen&#39;s blog</description>
+    <title>A First Course in Bayesian Statistical Methods on Uyen&#39;s blog</title>
+    <link>https://nguyen451.github.io/series/a-first-course-in-bayesian-statistical-methods/</link>
+    <description>Recent content in A First Course in Bayesian Statistical Methods on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nguyen451.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nguyen451.github.io/series/a-first-course-in-bayesian-statistical-methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 1: Introduction and examples</title>
       <link>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</link>
@@ -49,13 +49,6 @@
 &lt;h3 id=&#34;de-finettis-theorem&#34;&gt;De Finetti&amp;rsquo;s theorem&lt;/h3&gt;</description>
     </item>
     <item>
-      <title>Chapter 2: Introduction to Statistical Learning</title>
-      <link>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</guid>
-      <description>&lt;h2 id=&#34;what-is-statistical-learning&#34;&gt;What is Statistical Learning?&lt;/h2&gt;</description>
-    </item>
-    <item>
       <title>Chapter 3: One-parameter models</title>
       <link>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
@@ -63,31 +56,6 @@
       <description>&lt;h2 id=&#34;binomial-model&#34;&gt;Binomial model&lt;/h2&gt;
 &lt;h2 id=&#34;poisson-model&#34;&gt;Poisson model&lt;/h2&gt;
 &lt;h2 id=&#34;exponential-model&#34;&gt;Exponential model&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>Second</title>
-      <link>https://nguyen451.github.io/demo/second/</link>
-      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/demo/second/</guid>
-      <description>&lt;h1 id=&#34;second-demo&#34;&gt;Second Demo&lt;/h1&gt;
-&lt;p&gt;This is the content of the second demo post.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>First Demo</title>
-      <link>https://nguyen451.github.io/demo/first/</link>
-      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/demo/first/</guid>
-      <description>&lt;h1 id=&#34;first-demo&#34;&gt;First Demo&lt;/h1&gt;
-&lt;p&gt;This is the content of the first demo post.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>https://nguyen451.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/about/</guid>
-      <description>&lt;h1 id=&#34;nguyen-bich-uyen&#34;&gt;Nguyen Bich Uyen&lt;/h1&gt;
-&lt;p&gt;Hi there 👋, my name is Uyen. I love study, and recently - math!. I write this blog to share about my learning journey and some interesting projects I work on.&lt;/p&gt;
-&lt;p&gt;I love duck, they&amp;rsquo;re cute and so adorable! 🦆🦆🦆. They are also a very specially hard-working animal :&amp;gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
