@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Chapter 4: Classification | Uyen&#39;s blog</title>
 <meta name="keywords" content="statistics">
 <meta name="description" content="As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?
 The task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.
 Some examples of classification problems include:">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/book/islp/ch4_classification/">
-<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="https://nguyen451.github.io/book/islp/ch4_classification/">
+<link crossorigin="anonymous" href="https://nguyen451.github.io/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://nguyen451.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nguyen451.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nguyen451.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://nguyen451.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://nguyen451.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/book/islp/ch4_classification/">
+<link rel="alternate" hreflang="en" href="https://nguyen451.github.io/book/islp/ch4_classification/">
 <noscript>
     <style>
         #theme-toggle,
@@ -86,13 +86,81 @@ Some examples of classification problems include:">
     },
   };
 </script>
+<meta property="og:url" content="https://nguyen451.github.io/book/islp/ch4_classification/">
+  <meta property="og:site_name" content="Uyen&#39;s blog">
+  <meta property="og:title" content="Chapter 4: Classification">
+  <meta property="og:description" content="As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?
+The task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.
+Some examples of classification problems include:">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="book">
+    <meta property="article:published_time" content="2025-11-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-25T00:00:00+00:00">
+    <meta property="article:tag" content="Statistics">
+      <meta property="og:see_also" content="https://nguyen451.github.io/book/islp/ch2_statistical_learning/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 4: Classification">
+<meta name="twitter:description" content="As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?
+The task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.
+Some examples of classification problems include:">
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Books",
+      "item": "https://nguyen451.github.io/book/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Chapter 4: Classification",
+      "item": "https://nguyen451.github.io/book/islp/ch4_classification/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Chapter 4: Classification",
+  "name": "Chapter 4: Classification",
+  "description": "As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?\nThe task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.\nSome examples of classification problems include:\n",
+  "keywords": [
+    "statistics"
+  ],
+  "articleBody": "As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?\nThe task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.\nSome examples of classification problems include:\nA person arrives at the emergency room with a set of symptoms that could possibly be attributed to one of three medical conditions. Which of the three conditions does the individual have? An online banking service must be able to determine whether or not a transaction being performed on the site is fraudulent, on the basis of the user’s IP address, past transaction history, and so forth. On the basis of DNA sequence data for a number of patients with and without a given disease, a biologist would like to figure out which DNA mutations are deleterious (disease-causing) and which are not. In this chapter, we will illustrate the concept of classification using the simulated Default data set. We are interested in predicting whether an individual will default on his or her credit card payment, on the basis of annual income and monthly credit card balance.\nWhy not use linear regression? There are two main problems with using linear regression for classification.\nFirst is how to encode the qualitative response variable. For example, if we are trying to classify three types of diseases : stroke, drug overdose, and epileptic seizure. How should we encode them? If we use 1 for stroke, 2 for drug overdose, and 3 for epileptic seizure, then we are accidentally implying that drug overdose is somehow “twice” as severe as stroke, and epileptic seizure is “three times” as severe as stroke.\nSecond, even if we could find a reasonable way to encode the qualitative response, for example, in email classification, we could use 0 for “not spam” and 1 for “spam”, there is still problems. In classification, to determine whether or not one response belongs to a certain class, we usually base on the probability of the response belonging to that class. For example, if the probability of an email being spam is greater than 0.5, we classify it as spam; otherwise, we classify it as not spam. So the out come of the model we need is a probability value between 0 and 1. However, linear regression does not guarantee that the predicted values will fall between 0 and 1. In fact, it is very possible to get predicted values less than 0 or greater than 1, which makes no sense in classification problems.\nLogistic Regression Consider the Default data set, where the response default falls into one of two categories, Yes or No. We use logistic regression models the probability of default given the predictors balance and income. E.g. the probability of default given balance can be written as: $$P(Default=Yes|Balance)= \\pi (Balance)$$ for any individual for whom p(balance) \u003e 0.5, we predict that the individual will default.\nThe logistic model (a.k.a logistic function) The original idea is to solve to second problem of linear regression model. As you know, the linear regression model is in the form of: $$p(Y) = \\beta_0 + \\beta_1 X$$",
+  "wordCount" : "550",
+  "inLanguage": "en",
+  "datePublished": "2025-11-25T00:00:00Z",
+  "dateModified": "2025-11-25T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nguyen451.github.io/book/islp/ch4_classification/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Uyen's blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nguyen451.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Uyen&#39;s blog (Alt + H)">Uyen&#39;s blog</a>
+            <a href="https://nguyen451.github.io/" accesskey="h" title="Uyen&#39;s blog (Alt + H)">Uyen&#39;s blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -118,22 +186,22 @@ Some examples of classification problems include:">
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/series/" title="Series">
+                <a href="https://nguyen451.github.io/series/" title="Series">
                     <span>Series</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
+                <a href="https://nguyen451.github.io/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/archives/" title="Archives">
+                <a href="https://nguyen451.github.io/archives/" title="Archives">
                     <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
+                <a href="https://nguyen451.github.io/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -144,7 +212,7 @@ Some examples of classification problems include:">
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/book/">Books</a></div>
+    <div class="breadcrumbs"><a href="https://nguyen451.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://nguyen451.github.io/book/">Books</a></div>
     <h1 class="post-title entry-hint-parent">
       Chapter 4: Classification
     </h1>
@@ -180,10 +248,10 @@ $$p(Y) = \beta_0 + \beta_1 X$$
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/statistics/">Statistics</a></li>
+      <li><a href="https://nguyen451.github.io/tags/statistics/">Statistics</a></li>
     </ul>
 <nav class="paginav">
-  <a class="next" href="http://localhost:1313/book/firstcoursebayes/ch1_intro/">
+  <a class="next" href="https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/">
     <span class="title">Next »</span>
     <br>
     <span>Chapter 1: Introduction and examples</span>
@@ -195,7 +263,7 @@ $$p(Y) = \beta_0 + \beta_1 X$$
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Uyen&#39;s blog</a></span> · 
+        <span>&copy; 2026 <a href="https://nguyen451.github.io/">Uyen&#39;s blog</a></span> · 
 
     <span>
         Powered by
