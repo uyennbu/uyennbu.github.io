@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Books on Uyen&#39;s blog</title>
-    <link>https://nguyen451.github.io/book/</link>
+    <link>http://localhost:1313/book/</link>
     <description>Recent content in Books on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nguyen451.github.io/book/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 4: Classification</title>
-      <link>https://nguyen451.github.io/book/islp/ch4_classification/</link>
+      <link>http://localhost:1313/book/islp/ch4_classification/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch4_classification/</guid>
+      <guid>http://localhost:1313/book/islp/ch4_classification/</guid>
       <description>&lt;p&gt;As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?&lt;/p&gt;
 &lt;p&gt;The task of predicting qualitative responses is known as &lt;em&gt;classification&lt;/em&gt;. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.&lt;/p&gt;
 &lt;p&gt;Some examples of classification problems include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chapter 1: Introduction and examples</title>
-      <link>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</link>
+      <link>http://localhost:1313/book/firstcoursebayes/ch1_intro/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</guid>
+      <guid>http://localhost:1313/book/firstcoursebayes/ch1_intro/</guid>
       <description>&lt;h1 id=&#34;chapter-1-introduction-and-examples&#34;&gt;Chapter 1: Introduction and examples&lt;/h1&gt;
 &lt;h2 id=&#34;what-is-bayesian-statistics&#34;&gt;What is Bayesian Statistics?&lt;/h2&gt;
 &lt;ul&gt;
@@ -45,9 +45,9 @@ $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\ti
     </item>
     <item>
       <title>Chapter 2: Belief, Probbility, and Exchangeability</title>
-      <link>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</link>
+      <link>http://localhost:1313/book/firstcoursebayes/ch2_belief_prob_exchangeability/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</guid>
+      <guid>http://localhost:1313/book/firstcoursebayes/ch2_belief_prob_exchangeability/</guid>
       <description>&lt;h2 id=&#34;belief-function-and-probability&#34;&gt;Belief function and Probability&lt;/h2&gt;
 &lt;h2 id=&#34;events-partitions-and-bayes-rule&#34;&gt;Events, partitions, and Bayes&amp;rsquo; rule&lt;/h2&gt;
 &lt;h2 id=&#34;independence&#34;&gt;Independence&lt;/h2&gt;
@@ -61,16 +61,16 @@ $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\ti
     </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning</title>
-      <link>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</link>
+      <link>http://localhost:1313/book/islp/ch2_statistical_learning/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</guid>
+      <guid>http://localhost:1313/book/islp/ch2_statistical_learning/</guid>
       <description>&lt;h2 id=&#34;what-is-statistical-learning&#34;&gt;What is Statistical Learning?&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Chapter 3: One-parameter models</title>
-      <link>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</link>
+      <link>http://localhost:1313/book/firstcoursebayes/ch3_one_prarameter_models/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</guid>
+      <guid>http://localhost:1313/book/firstcoursebayes/ch3_one_prarameter_models/</guid>
       <description>&lt;h2 id=&#34;binomial-model&#34;&gt;Binomial model&lt;/h2&gt;
 &lt;h2 id=&#34;poisson-model&#34;&gt;Poisson model&lt;/h2&gt;
 &lt;h2 id=&#34;exponential-model&#34;&gt;Exponential model&lt;/h2&gt;</description>
