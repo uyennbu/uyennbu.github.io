@@ -5,8 +5,6 @@ draft: false
 layout: "about" # Đảm bảo Hugo sử dụng layout cho trang độc lập (single page)
 ---
 
-# Nguyen Bich Uyen
+# About Me
 
-Hi there 👋, my name is Uyen. I love study, and recently - math!. I write this blog to share about my learning journey and some interesting projects I work on.
-
-I love duck, they're cute and so adorable! 🦆🦆🦆. They are also a very specially hard-working animal :>.
+Mình tên là Nguyễn Bích Uyên, đang là sinh viên ngành khoa học dữ liệu tại trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội. Mình viết blog này để chia sẻ những kiến thức mình học được về thống kê và học máy, cũng như những trải nghiệm của mình trong quá trình học tập tại HUS.
