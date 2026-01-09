@@ -6,8 +6,17 @@
     <description>Recent content in Statistics on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nguyen451.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 4: Classification</title>
+      <link>https://nguyen451.github.io/book/islp/ch4_classification/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/islp/ch4_classification/</guid>
+      <description>&lt;p&gt;As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?&lt;/p&gt;
+&lt;p&gt;The task of predicting qualitative responses is known as &lt;em&gt;classification&lt;/em&gt;. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.&lt;/p&gt;
+&lt;p&gt;Some examples of classification problems include:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning</title>
       <link>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</link>

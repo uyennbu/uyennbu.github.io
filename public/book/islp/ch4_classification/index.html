@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Chapter 4: Classification | Uyen&#39;s blog</title>
+<meta name="keywords" content="statistics">
+<meta name="description" content="As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?
+The task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.
+Some examples of classification problems include:">
+<meta name="author" content="">
+<link rel="canonical" href="https://nguyen451.github.io/book/islp/ch4_classification/">
+<link crossorigin="anonymous" href="https://nguyen451.github.io/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://nguyen451.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nguyen451.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nguyen451.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://nguyen451.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://nguyen451.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://nguyen451.github.io/book/islp/ch4_classification/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\[', '\]'], ['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+<meta property="og:url" content="https://nguyen451.github.io/book/islp/ch4_classification/">
+  <meta property="og:site_name" content="Uyen&#39;s blog">
+  <meta property="og:title" content="Chapter 4: Classification">
+  <meta property="og:description" content="As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?
+The task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.
+Some examples of classification problems include:">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="book">
+    <meta property="article:published_time" content="2025-11-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-25T00:00:00+00:00">
+    <meta property="article:tag" content="Statistics">
+      <meta property="og:see_also" content="https://nguyen451.github.io/book/islp/ch2_statistical_learning/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 4: Classification">
+<meta name="twitter:description" content="As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?
+The task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.
+Some examples of classification problems include:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Books",
+      "item": "https://nguyen451.github.io/book/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Chapter 4: Classification",
+      "item": "https://nguyen451.github.io/book/islp/ch4_classification/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Chapter 4: Classification",
+  "name": "Chapter 4: Classification",
+  "description": "As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?\nThe task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.\nSome examples of classification problems include:\n",
+  "keywords": [
+    "statistics"
+  ],
+  "articleBody": "As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?\nThe task of predicting qualitative responses is known as classification. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.\nSome examples of classification problems include:\nA person arrives at the emergency room with a set of symptoms that could possibly be attributed to one of three medical conditions. Which of the three conditions does the individual have? An online banking service must be able to determine whether or not a transaction being performed on the site is fraudulent, on the basis of the user’s IP address, past transaction history, and so forth. On the basis of DNA sequence data for a number of patients with and without a given disease, a biologist would like to figure out which DNA mutations are deleterious (disease-causing) and which are not. In this chapter, we will illustrate the concept of classification using the simulated Default data set. We are interested in predicting whether an individual will default on his or her credit card payment, on the basis of annual income and monthly credit card balance.\nWhy not use linear regression? There are two main problems with using linear regression for classification.\nFirst is how to encode the qualitative response variable. For example, if we are trying to classify three types of diseases : stroke, drug overdose, and epileptic seizure. How should we encode them? If we use 1 for stroke, 2 for drug overdose, and 3 for epileptic seizure, then we are accidentally implying that drug overdose is somehow “twice” as severe as stroke, and epileptic seizure is “three times” as severe as stroke.\nSecond, even if we could find a reasonable way to encode the qualitative response, for example, in email classification, we could use 0 for “not spam” and 1 for “spam”, there is still problems. In classification, to determine whether or not one response belongs to a certain class, we usually base on the probability of the response belonging to that class. For example, if the probability of an email being spam is greater than 0.5, we classify it as spam; otherwise, we classify it as not spam. So the out come of the model we need is a probability value between 0 and 1. However, linear regression does not guarantee that the predicted values will fall between 0 and 1. In fact, it is very possible to get predicted values less than 0 or greater than 1, which makes no sense in classification problems.\nLogistic Regression Consider the Default data set, where the response default falls into one of two categories, Yes or No. We use logistic regression models the probability of default given the predictors balance and income. E.g. the probability of default given balance can be written as: $$P(Default=Yes|Balance)= \\pi (Balance)$$ for any individual for whom p(balance) \u003e 0.5, we predict that the individual will default.\nThe logistic model (a.k.a logistic function) The original idea is to solve to second problem of linear regression model. As you know, the linear regression model is in the form of: $$p(Y) = \\beta_0 + \\beta_1 X$$",
+  "wordCount" : "550",
+  "inLanguage": "en",
+  "datePublished": "2025-11-25T00:00:00Z",
+  "dateModified": "2025-11-25T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nguyen451.github.io/book/islp/ch4_classification/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Uyen's blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nguyen451.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://nguyen451.github.io/" accesskey="h" title="Uyen&#39;s blog (Alt + H)">Uyen&#39;s blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://nguyen451.github.io/series/" title="Series">
+                    <span>Series</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://nguyen451.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://nguyen451.github.io/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://nguyen451.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://nguyen451.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://nguyen451.github.io/book/">Books</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Chapter 4: Classification
+    </h1>
+    <div class="post-meta"><span title='2025-11-25 00:00:00 +0000 UTC'>November 25, 2025</span>&nbsp;·&nbsp;<span>3 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?</p>
+<p>The task of predicting qualitative responses is known as <em>classification</em>. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.</p>
+<p>Some examples of classification problems include:</p>
+<ul>
+<li>A person arrives at the emergency room with a set of symptoms that could possibly be attributed to one of three medical conditions. Which of the three conditions does the individual have?</li>
+<li>An online banking service must be able to determine whether or not a transaction being performed on the site is fraudulent, on the basis of the user’s IP address, past transaction history, and so forth.</li>
+<li>On the basis of DNA sequence data for a number of patients with and without a given disease, a biologist would like to figure out which DNA mutations are deleterious (disease-causing) and which are not.</li>
+</ul>
+<p>In this chapter, we will illustrate the concept of classification using the simulated Default data set. We are interested in predicting whether an individual will default on his or her credit card payment, on the basis of
+annual income and monthly credit card balance.</p>
+<h1 id="why-not-use-linear-regression">Why not use linear regression?<a hidden class="anchor" aria-hidden="true" href="#why-not-use-linear-regression">#</a></h1>
+<p>There are two main problems with using linear regression for classification.</p>
+<p>First is how to encode the qualitative response variable. For example, if we are trying to classify three types of diseases : stroke, drug overdose, and epileptic seizure. How should we encode them? If we use 1 for stroke, 2 for drug overdose, and 3 for epileptic seizure, then we are accidentally implying that drug overdose is somehow &ldquo;twice&rdquo; as severe as stroke, and epileptic seizure is &ldquo;three times&rdquo; as severe as stroke.</p>
+<p>Second, even if we could find a reasonable way to encode the qualitative response, for example, in email classification, we could use 0 for &ldquo;not spam&rdquo; and 1 for &ldquo;spam&rdquo;, there is still problems. In classification, to determine whether or not one response belongs to a certain class, we usually base on the probability of the response belonging to that class. For example, if the probability of an email being spam is greater than 0.5, we classify it as spam; otherwise, we classify it as not spam. So the out come of the model we need is a probability value between 0 and 1. However, linear regression does not guarantee that the predicted values will fall between 0 and 1. In fact, it is very possible to get predicted values less than 0 or greater than 1, which makes no sense in classification problems.</p>
+<h1 id="logistic-regression">Logistic Regression<a hidden class="anchor" aria-hidden="true" href="#logistic-regression">#</a></h1>
+<p>Consider the Default data set, where the response default falls into one of two categories, Yes or No. We use logistic regression models the probability of default given the predictors balance and income. E.g. the probability of default given balance can be written as:
+</p>
+$$P(Default=Yes|Balance)= \pi (Balance)$$<p>
+for any individual for whom p(<em>balance</em>) &gt; 0.5, we predict that the individual will default.</p>
+<h2 id="the-logistic-model-aka-logistic-function">The logistic model (a.k.a logistic function)<a hidden class="anchor" aria-hidden="true" href="#the-logistic-model-aka-logistic-function">#</a></h2>
+<p>The original idea is to solve to second problem of linear regression model. As you know, the linear regression model is in the form of:
+</p>
+$$p(Y) = \beta_0 + \beta_1 X$$
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://nguyen451.github.io/tags/statistics/">Statistics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Chapter 1: Introduction and examples</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://nguyen451.github.io/">Uyen&#39;s blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
