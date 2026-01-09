@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Chapter 1: Introduction and examples | Uyen&#39;s blog</title>
 <meta name="keywords" content="bayesian statistics">
 <meta name="description" content="Chapter 1: Introduction and examples
@@ -28,16 +28,16 @@ $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\ti
 Using Bayes inference to estimate posterior probability
 Using Bayes inference to estimate parameter in a predictive model">
 <meta name="author" content="">
-<link rel="canonical" href="https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/">
-<link crossorigin="anonymous" href="https://nguyen451.github.io/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://nguyen451.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://nguyen451.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://nguyen451.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://nguyen451.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://nguyen451.github.io/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/book/firstcoursebayes/ch1_intro/">
+<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/book/firstcoursebayes/ch1_intro/">
 <noscript>
     <style>
         #theme-toggle,
@@ -103,97 +103,13 @@ Using Bayes inference to estimate parameter in a predictive model">
     },
   };
 </script>
-<meta property="og:url" content="https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/">
-  <meta property="og:site_name" content="Uyen&#39;s blog">
-  <meta property="og:title" content="Chapter 1: Introduction and examples">
-  <meta property="og:description" content="Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes’ rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases) dataset: $y$ (sample of the population) sample space : $\mathcal{Y}$ (all possible datasets) parameter space : $\Theta$ (all possible parameters) prior distribution: $p(\theta)$ (for each $\theta \in \Theta$, $p(\theta)$ is our belief that $\theta$ represents the true population chracteristic) sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known) posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$) Bayes’ Rule $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="book">
-    <meta property="article:published_time" content="2025-11-12T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-11-12T00:00:00+00:00">
-    <meta property="article:tag" content="Bayesian Statistics">
-      <meta property="og:see_also" content="https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/">
-      <meta property="og:see_also" content="https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 1: Introduction and examples">
-<meta name="twitter:description" content="Chapter 1: Introduction and examples
-What is Bayesian Statistics?
 
-Bayesian inference is the process of inductive learning via Bayes&rsquo; rule.
-Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information.
-
-Notation
-
-parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases)
-dataset: $y$ (sample of the population)
-sample space : $\mathcal{Y}$ (all possible datasets)
-parameter space : $\Theta$ (all possible parameters)
-prior distribution: $p(\theta)$ (for each $\theta \in \Theta$, $p(\theta)$ is our belief that $\theta$ represents the true population chracteristic)
-sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known)
-posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$)
-
-Bayes&rsquo; Rule
-$$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$Examples
-Using Bayes inference to estimate posterior probability
-Using Bayes inference to estimate parameter in a predictive model">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Books",
-      "item": "https://nguyen451.github.io/book/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Chapter 1: Introduction and examples",
-      "item": "https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Chapter 1: Introduction and examples",
-  "name": "Chapter 1: Introduction and examples",
-  "description": "Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes\u0026rsquo; rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: $\\theta$ (we call it parameter because we calculate y from it, in normal cases) dataset: $y$ (sample of the population) sample space : $\\mathcal{Y}$ (all possible datasets) parameter space : $\\Theta$ (all possible parameters) prior distribution: $p(\\theta)$ (for each $\\theta \\in \\Theta$, $p(\\theta)$ is our belief that $\\theta$ represents the true population chracteristic) sampling method: $p(y|\\theta)$ (our belief that $y$ should be observed if $\\theta$ is known) posterior distribution: $p(\\theta|y)$ (our belief that $\\theta$ is the true population characteristic after observing $y$) Bayes\u0026rsquo; Rule $$p(\\theta|y) = \\frac{p(y|\\theta)p(\\theta)}{\\int_\\Theta p(y|\\tilde{\\theta})p(\\tilde{\\theta})d\\tilde{\\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model",
-  "keywords": [
-    "bayesian statistics"
-  ],
-  "articleBody": "Chapter 1: Introduction and examples What is Bayesian Statistics? Bayesian inference is the process of inductive learning via Bayes’ rule. Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information. Notation parameters: $\\theta$ (we call it parameter because we calculate y from it, in normal cases) dataset: $y$ (sample of the population) sample space : $\\mathcal{Y}$ (all possible datasets) parameter space : $\\Theta$ (all possible parameters) prior distribution: $p(\\theta)$ (for each $\\theta \\in \\Theta$, $p(\\theta)$ is our belief that $\\theta$ represents the true population chracteristic) sampling method: $p(y|\\theta)$ (our belief that $y$ should be observed if $\\theta$ is known) posterior distribution: $p(\\theta|y)$ (our belief that $\\theta$ is the true population characteristic after observing $y$) Bayes’ Rule $$p(\\theta|y) = \\frac{p(y|\\theta)p(\\theta)}{\\int_\\Theta p(y|\\tilde{\\theta})p(\\tilde{\\theta})d\\tilde{\\theta}}$$Examples Using Bayes inference to estimate posterior probability Using Bayes inference to estimate parameter in a predictive model ",
-  "wordCount" : "149",
-  "inLanguage": "en",
-  "datePublished": "2025-11-12T00:00:00Z",
-  "dateModified": "2025-11-12T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Uyen's blog",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://nguyen451.github.io/favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://nguyen451.github.io/" accesskey="h" title="Uyen&#39;s blog (Alt + H)">Uyen&#39;s blog</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Uyen&#39;s blog (Alt + H)">Uyen&#39;s blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -219,22 +135,22 @@ Using Bayes inference to estimate parameter in a predictive model">
         </div>
         <ul id="menu">
             <li>
-                <a href="https://nguyen451.github.io/series/" title="Series">
+                <a href="http://localhost:1313/series/" title="Series">
                     <span>Series</span>
                 </a>
             </li>
             <li>
-                <a href="https://nguyen451.github.io/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://nguyen451.github.io/archives/" title="Archives">
+                <a href="http://localhost:1313/archives/" title="Archives">
                     <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="https://nguyen451.github.io/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -245,7 +161,7 @@ Using Bayes inference to estimate parameter in a predictive model">
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://nguyen451.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://nguyen451.github.io/book/">Books</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/book/">Books</a></div>
     <h1 class="post-title entry-hint-parent">
       Chapter 1: Introduction and examples
     </h1>
@@ -279,15 +195,15 @@ $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\ti
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://nguyen451.github.io/tags/bayesian-statistics/">Bayesian Statistics</a></li>
+      <li><a href="http://localhost:1313/tags/bayesian-statistics/">Bayesian Statistics</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://nguyen451.github.io/book/islp/ch4_classification/">
+  <a class="prev" href="http://localhost:1313/book/islp/ch4_classification/">
     <span class="title">« Prev</span>
     <br>
     <span>Chapter 4: Classification</span>
   </a>
-  <a class="next" href="https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/">
+  <a class="next" href="http://localhost:1313/book/firstcoursebayes/ch2_belief_prob_exchangeability/">
     <span class="title">Next »</span>
     <br>
     <span>Chapter 2: Belief, Probbility, and Exchangeability</span>
@@ -299,7 +215,7 @@ $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\ti
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://nguyen451.github.io/">Uyen&#39;s blog</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">Uyen&#39;s blog</a></span> · 
 
     <span>
         Powered by
