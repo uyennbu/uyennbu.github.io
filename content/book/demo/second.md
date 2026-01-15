@@ -1,7 +1,7 @@
 ---
 title: Second
 date: 2024-07-15
-draft: false
+draft: true
 tags: [demo, example]
 series: ["Demo Series"]
 ---

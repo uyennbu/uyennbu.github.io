@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Demoes on Uyen&#39;s blog</title>
-    <link>https://nguyen451.github.io/demo/</link>
+    <link>http://localhost:1313/demo/</link>
     <description>Recent content in Demoes on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nguyen451.github.io/demo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second</title>
-      <link>https://nguyen451.github.io/demo/second/</link>
+      <link>http://localhost:1313/demo/second/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/demo/second/</guid>
+      <guid>http://localhost:1313/demo/second/</guid>
       <description>&lt;h1 id=&#34;second-demo&#34;&gt;Second Demo&lt;/h1&gt;
 &lt;p&gt;This is the content of the second demo post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Demo</title>
-      <link>https://nguyen451.github.io/demo/first/</link>
+      <link>http://localhost:1313/demo/first/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/demo/first/</guid>
+      <guid>http://localhost:1313/demo/first/</guid>
       <description>&lt;h1 id=&#34;first-demo&#34;&gt;First Demo&lt;/h1&gt;
 &lt;p&gt;This is the content of the first demo post.&lt;/p&gt;</description>
     </item>

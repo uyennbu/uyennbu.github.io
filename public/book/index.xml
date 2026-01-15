@@ -9,6 +9,14 @@
     <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nguyen451.github.io/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Các môn mình học tại HUS</title>
+      <link>https://nguyen451.github.io/book/studyinhus/ratingsubjects/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/studyinhus/ratingsubjects/</guid>
+      <description>&lt;p&gt;Bài viết này thuộc series &amp;ldquo;Study in HUS&amp;rdquo;, nơi mình chia sẻ những cảm nhận và suy nghĩ của mình trong quá trình học tập lại HUS.&lt;/p&gt;
+&lt;p&gt;Trong bài viết này, mình sẽ nêu cảm nhận của mình về những môn học mình đã học tại HUS. Bài viết được lấy ý tưởng từ bài viết rate các môn học của chị Trâm - người chị trong ban KHDL của CLB mình tại HUS.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Chapter 4: Classification</title>
       <link>https://nguyen451.github.io/book/islp/ch4_classification/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
@@ -74,6 +82,14 @@ $$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\ti
       <description>&lt;h2 id=&#34;binomial-model&#34;&gt;Binomial model&lt;/h2&gt;
 &lt;h2 id=&#34;poisson-model&#34;&gt;Poisson model&lt;/h2&gt;
 &lt;h2 id=&#34;exponential-model&#34;&gt;Exponential model&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>First Demo</title>
+      <link>https://nguyen451.github.io/book/demo/first/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/demo/first/</guid>
+      <description>&lt;h1 id=&#34;first-demo&#34;&gt;First Demo&lt;/h1&gt;
+&lt;p&gt;This is the content of the first demo post.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

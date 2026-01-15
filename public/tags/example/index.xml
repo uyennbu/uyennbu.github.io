@@ -10,9 +10,9 @@
     <atom:link href="https://nguyen451.github.io/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second</title>
-      <link>https://nguyen451.github.io/demo/second/</link>
+      <link>https://nguyen451.github.io/book/demo/second/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/demo/second/</guid>
+      <guid>https://nguyen451.github.io/book/demo/second/</guid>
       <description>&lt;h1 id=&#34;second-demo&#34;&gt;Second Demo&lt;/h1&gt;
 &lt;p&gt;This is the content of the second demo post.&lt;/p&gt;</description>
     </item>
