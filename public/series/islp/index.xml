@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ISLP on Uyen&#39;s blog</title>
-    <link>https://nguyen451.github.io/series/islp/</link>
+    <link>http://localhost:1313/series/islp/</link>
     <description>Recent content in ISLP on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nguyen451.github.io/series/islp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/series/islp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (2)</title>
-      <link>https://nguyen451.github.io/book/islp/ch2_2/</link>
+      <link>http://localhost:1313/book/islp/ch2_2/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch2_2/</guid>
+      <guid>http://localhost:1313/book/islp/ch2_2/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (1)</title>
-      <link>https://nguyen451.github.io/book/islp/ch2_1/</link>
+      <link>http://localhost:1313/book/islp/ch2_1/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch2_1/</guid>
+      <guid>http://localhost:1313/book/islp/ch2_1/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
