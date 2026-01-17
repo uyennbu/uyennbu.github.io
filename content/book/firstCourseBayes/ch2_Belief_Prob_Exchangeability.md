@@ -1,7 +1,7 @@
 ---
 title: "Chapter 2: Belief, Probbility, and Exchangeability"
 date: 2025-11-12
-draft: false
+draft: true
 series: ["A First Course in Bayesian Statistical Methods"]
 tags: [bayesian statistics]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Chapter 4: Classification"
 date: 2025-11-25
-draft: false
+draft: true
 series: ["ISLP"]
 tags: [statistics]
 ---

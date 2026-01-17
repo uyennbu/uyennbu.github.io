@@ -6,8 +6,36 @@
     <description>Recent content on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nguyen451.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 2: Introduction to Statistical Learning (2)</title>
+      <link>https://nguyen451.github.io/book/islp/ch2_2/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/islp/ch2_2/</guid>
+      <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Trang resources để tải file sách pdf, tải code và data:  &lt;a href=&#34;https://www.statlearning.com/resources-python&#34;&gt;resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bài giảng của tác giả được cung cấp bởi đại học Stanford: &lt;a href=&#34;https://youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&amp;amp;si=wvVcrbaPvFn4x9wb&#34;&gt;Statistical Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;22-đánh-giá-sự-chính-xác&#34;&gt;2.2 Đánh giá sự chính xác&lt;/h2&gt;
+&lt;p&gt;Chúng ta cần nhiều phương pháp thay vì một cách duy nhất vì không có model nào là phù hợp với tất cả các tập dữ liệu. Với một tập dữ liệu nhất định có thể phù hợp với phương pháp này, nhưng một tập dữ liệu tương tự khác lại biểu hiện tốt hơn với phương pháp khác. Chọn cách tiếp cận đúng có lẽ là một trong những nhiệm vụ quan trọng nhất trên thực tế.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 2: Introduction to Statistical Learning (1)</title>
+      <link>https://nguyen451.github.io/book/islp/ch2_1/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/islp/ch2_1/</guid>
+      <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Trang resources để tải file sách pdf, tải code và data:  &lt;a href=&#34;https://www.statlearning.com/resources-python&#34;&gt;resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bài giảng của tác giả được cung cấp bởi đại học Stanford: &lt;a href=&#34;https://youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&amp;amp;si=wvVcrbaPvFn4x9wb&#34;&gt;Statistical Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;21-statistical-learning-là-gì&#34;&gt;2.1 Statistical learning là gì?&lt;/h2&gt;
+&lt;p&gt;Ta bắt đầu bằng một bài toán:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Các môn mình học tại HUS</title>
       <link>https://nguyen451.github.io/book/studyinhus/ratingsubjects/</link>
@@ -16,81 +44,6 @@
       <description>&lt;p&gt;Bài viết này thuộc series &amp;ldquo;Study in HUS&amp;rdquo;, nơi mình chia sẻ những cảm nhận và suy nghĩ của mình trong quá trình học tập lại HUS.&lt;/p&gt;
 &lt;h2 id=&#34;kì-học-thứ-3---kì-1-năm-2&#34;&gt;Kì học thứ 3 - kì 1 năm 2&lt;/h2&gt;
 &lt;p&gt;Học kì này mình học 21 tín, 1 tín kỹ năng mềm nên tính ra mình học 20 tín, 7 môn, không nhiều, không ít. Lúc mới vào năm học mình khá quyết tâm, gọi là khí thế hừng hực luôn. Nhưng về sau thì cũng có một thứ không như mong đợi, song mình cũng học được nhiều bài học và cũng quen được nhiều bạn mới. Nhìn chung, đây cũng là một học kì thành công, giúp mình trưởng thành hơn rất nhiều.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Chapter 4: Classification</title>
-      <link>https://nguyen451.github.io/book/islp/ch4_classification/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch4_classification/</guid>
-      <description>&lt;p&gt;As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?&lt;/p&gt;
-&lt;p&gt;The task of predicting qualitative responses is known as &lt;em&gt;classification&lt;/em&gt;. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.&lt;/p&gt;
-&lt;p&gt;Some examples of classification problems include:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Chapter 1: Introduction and examples</title>
-      <link>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</guid>
-      <description>&lt;h1 id=&#34;chapter-1-introduction-and-examples&#34;&gt;Chapter 1: Introduction and examples&lt;/h1&gt;
-&lt;h2 id=&#34;what-is-bayesian-statistics&#34;&gt;What is Bayesian Statistics?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Bayesian inference is the process of &lt;strong&gt;inductive&lt;/strong&gt; learning via Bayes&amp;rsquo; rule.&lt;/li&gt;
-&lt;li&gt;Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;notation&#34;&gt;Notation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases)&lt;/li&gt;
-&lt;li&gt;dataset: $y$ (sample of the population)&lt;/li&gt;
-&lt;li&gt;sample space : $\mathcal{Y}$ (all possible datasets)&lt;/li&gt;
-&lt;li&gt;parameter space : $\Theta$ (all possible parameters)&lt;/li&gt;
-&lt;li&gt;prior distribution: $p(\theta)$ (for each $\theta \in \Theta$, $p(\theta)$ is our belief that $\theta$ represents the true population chracteristic)&lt;/li&gt;
-&lt;li&gt;sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known)&lt;/li&gt;
-&lt;li&gt;posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;bayes-rule&#34;&gt;Bayes&amp;rsquo; Rule&lt;/h2&gt;
-$$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;using-bayes-inference-to-estimate-posterior-probability&#34;&gt;Using Bayes inference to estimate posterior probability&lt;/h3&gt;
-&lt;h3 id=&#34;using-bayes-inference-to-estimate-parameter-in-a-predictive-model&#34;&gt;Using Bayes inference to estimate parameter in a predictive model&lt;/h3&gt;</description>
-    </item>
-    <item>
-      <title>Chapter 2: Belief, Probbility, and Exchangeability</title>
-      <link>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</guid>
-      <description>&lt;h2 id=&#34;belief-function-and-probability&#34;&gt;Belief function and Probability&lt;/h2&gt;
-&lt;h2 id=&#34;events-partitions-and-bayes-rule&#34;&gt;Events, partitions, and Bayes&amp;rsquo; rule&lt;/h2&gt;
-&lt;h2 id=&#34;independence&#34;&gt;Independence&lt;/h2&gt;
-&lt;h2 id=&#34;random-variables&#34;&gt;Random variables&lt;/h2&gt;
-&lt;h3 id=&#34;discrete-random-variables&#34;&gt;Discrete random variables&lt;/h3&gt;
-&lt;h3 id=&#34;continuous-random-variables&#34;&gt;Continuous random variables&lt;/h3&gt;
-&lt;h2 id=&#34;joint-distributions&#34;&gt;Joint distributions&lt;/h2&gt;
-&lt;h2 id=&#34;independent-random-variables&#34;&gt;Independent random variables&lt;/h2&gt;
-&lt;h2 id=&#34;exchangeability&#34;&gt;Exchangeability&lt;/h2&gt;
-&lt;h3 id=&#34;de-finettis-theorem&#34;&gt;De Finetti&amp;rsquo;s theorem&lt;/h3&gt;</description>
-    </item>
-    <item>
-      <title>Chapter 2: Introduction to Statistical Learning</title>
-      <link>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</guid>
-      <description>&lt;h2 id=&#34;what-is-statistical-learning&#34;&gt;What is Statistical Learning?&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>Chapter 3: One-parameter models</title>
-      <link>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</guid>
-      <description>&lt;h2 id=&#34;binomial-model&#34;&gt;Binomial model&lt;/h2&gt;
-&lt;h2 id=&#34;poisson-model&#34;&gt;Poisson model&lt;/h2&gt;
-&lt;h2 id=&#34;exponential-model&#34;&gt;Exponential model&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>First Demo</title>
-      <link>https://nguyen451.github.io/book/demo/first/</link>
-      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/demo/first/</guid>
-      <description>&lt;h1 id=&#34;first-demo&#34;&gt;First Demo&lt;/h1&gt;
-&lt;p&gt;This is the content of the first demo post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>

@@ -6,23 +6,35 @@
     <description>Recent content in ISLP on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nguyen451.github.io/series/islp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 4: Classification</title>
-      <link>https://nguyen451.github.io/book/islp/ch4_classification/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch4_classification/</guid>
-      <description>&lt;p&gt;As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones?&lt;/p&gt;
-&lt;p&gt;The task of predicting qualitative responses is known as &lt;em&gt;classification&lt;/em&gt;. In this chapter, we will walk through the base idea of classification and some of the most basic and common classification models.&lt;/p&gt;
-&lt;p&gt;Some examples of classification problems include:&lt;/p&gt;</description>
+      <title>Chapter 2: Introduction to Statistical Learning (2)</title>
+      <link>https://nguyen451.github.io/book/islp/ch2_2/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/islp/ch2_2/</guid>
+      <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Trang resources để tải file sách pdf, tải code và data:  &lt;a href=&#34;https://www.statlearning.com/resources-python&#34;&gt;resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bài giảng của tác giả được cung cấp bởi đại học Stanford: &lt;a href=&#34;https://youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&amp;amp;si=wvVcrbaPvFn4x9wb&#34;&gt;Statistical Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;22-đánh-giá-sự-chính-xác&#34;&gt;2.2 Đánh giá sự chính xác&lt;/h2&gt;
+&lt;p&gt;Chúng ta cần nhiều phương pháp thay vì một cách duy nhất vì không có model nào là phù hợp với tất cả các tập dữ liệu. Với một tập dữ liệu nhất định có thể phù hợp với phương pháp này, nhưng một tập dữ liệu tương tự khác lại biểu hiện tốt hơn với phương pháp khác. Chọn cách tiếp cận đúng có lẽ là một trong những nhiệm vụ quan trọng nhất trên thực tế.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Chapter 2: Introduction to Statistical Learning</title>
-      <link>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nguyen451.github.io/book/islp/ch2_statistical_learning/</guid>
-      <description>&lt;h2 id=&#34;what-is-statistical-learning&#34;&gt;What is Statistical Learning?&lt;/h2&gt;</description>
+      <title>Chapter 2: Introduction to Statistical Learning (1)</title>
+      <link>https://nguyen451.github.io/book/islp/ch2_1/</link>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://nguyen451.github.io/book/islp/ch2_1/</guid>
+      <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Trang resources để tải file sách pdf, tải code và data:  &lt;a href=&#34;https://www.statlearning.com/resources-python&#34;&gt;resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bài giảng của tác giả được cung cấp bởi đại học Stanford: &lt;a href=&#34;https://youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&amp;amp;si=wvVcrbaPvFn4x9wb&#34;&gt;Statistical Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;21-statistical-learning-là-gì&#34;&gt;2.1 Statistical learning là gì?&lt;/h2&gt;
+&lt;p&gt;Ta bắt đầu bằng một bài toán:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
