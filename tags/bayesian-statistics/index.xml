@@ -1,10 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bayesian Statistics on Uyen's blog</title><link>https://nguyen451.github.io/tags/bayesian-statistics/</link><description>Recent content in Bayesian Statistics on Uyen's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nguyen451.github.io/tags/bayesian-statistics/index.xml" rel="self" type="application/rss+xml"/><item><title>Chapter 1: Introduction and examples</title><link>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://nguyen451.github.io/book/firstcoursebayes/ch1_intro/</guid><description>&lt;h1 id="chapter-1-introduction-and-examples"&gt;Chapter 1: Introduction and examples&lt;/h1&gt;
-&lt;h2 id="what-is-bayesian-statistics"&gt;What is Bayesian Statistics?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bayesian Statistics on Uyen&#39;s blog</title>
+    <link>http://localhost:1313/tags/bayesian-statistics/</link>
+    <description>Recent content in Bayesian Statistics on Uyen&#39;s blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bayesian-statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1: Introduction and examples</title>
+      <link>http://localhost:1313/book/firstcoursebayes/ch1_intro/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/firstcoursebayes/ch1_intro/</guid>
+      <description>&lt;h1 id=&#34;chapter-1-introduction-and-examples&#34;&gt;Chapter 1: Introduction and examples&lt;/h1&gt;
+&lt;h2 id=&#34;what-is-bayesian-statistics&#34;&gt;What is Bayesian Statistics?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bayesian inference is the process of &lt;strong&gt;inductive&lt;/strong&gt; learning via Bayes&amp;rsquo; rule.&lt;/li&gt;
 &lt;li&gt;Bayes rule does not tell us what our beliefs should be, it tells us how should they change after seeing new information.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="notation"&gt;Notation&lt;/h2&gt;
+&lt;h2 id=&#34;notation&#34;&gt;Notation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;parameters: $\theta$ (we call it parameter because we calculate y from it, in normal cases)&lt;/li&gt;
 &lt;li&gt;dataset: $y$ (sample of the population)&lt;/li&gt;
@@ -14,18 +29,35 @@
 &lt;li&gt;sampling method: $p(y|\theta)$ (our belief that $y$ should be observed if $\theta$ is known)&lt;/li&gt;
 &lt;li&gt;posterior distribution: $p(\theta|y)$ (our belief that $\theta$ is the true population characteristic after observing $y$)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="bayes-rule"&gt;Bayes&amp;rsquo; Rule&lt;/h2&gt;
-$$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
-&lt;h3 id="using-bayes-inference-to-estimate-posterior-probability"&gt;Using Bayes inference to estimate posterior probability&lt;/h3&gt;
-&lt;h3 id="using-bayes-inference-to-estimate-parameter-in-a-predictive-model"&gt;Using Bayes inference to estimate parameter in a predictive model&lt;/h3&gt;</description></item><item><title>Chapter 2: Belief, Probbility, and Exchangeability</title><link>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://nguyen451.github.io/book/firstcoursebayes/ch2_belief_prob_exchangeability/</guid><description>&lt;h2 id="belief-function-and-probability"&gt;Belief function and Probability&lt;/h2&gt;
-&lt;h2 id="events-partitions-and-bayes-rule"&gt;Events, partitions, and Bayes&amp;rsquo; rule&lt;/h2&gt;
-&lt;h2 id="independence"&gt;Independence&lt;/h2&gt;
-&lt;h2 id="random-variables"&gt;Random variables&lt;/h2&gt;
-&lt;h3 id="discrete-random-variables"&gt;Discrete random variables&lt;/h3&gt;
-&lt;h3 id="continuous-random-variables"&gt;Continuous random variables&lt;/h3&gt;
-&lt;h2 id="joint-distributions"&gt;Joint distributions&lt;/h2&gt;
-&lt;h2 id="independent-random-variables"&gt;Independent random variables&lt;/h2&gt;
-&lt;h2 id="exchangeability"&gt;Exchangeability&lt;/h2&gt;
-&lt;h3 id="de-finettis-theorem"&gt;De Finetti&amp;rsquo;s theorem&lt;/h3&gt;</description></item><item><title>Chapter 3: One-parameter models</title><link>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://nguyen451.github.io/book/firstcoursebayes/ch3_one_prarameter_models/</guid><description>&lt;h2 id="binomial-model"&gt;Binomial model&lt;/h2&gt;
-&lt;h2 id="poisson-model"&gt;Poisson model&lt;/h2&gt;
-&lt;h2 id="exponential-model"&gt;Exponential model&lt;/h2&gt;</description></item></channel></rss>
+&lt;h2 id=&#34;bayes-rule&#34;&gt;Bayes&amp;rsquo; Rule&lt;/h2&gt;
+$$p(\theta|y) = \frac{p(y|\theta)p(\theta)}{\int_\Theta p(y|\tilde{\theta})p(\tilde{\theta})d\tilde{\theta}}$$&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;using-bayes-inference-to-estimate-posterior-probability&#34;&gt;Using Bayes inference to estimate posterior probability&lt;/h3&gt;
+&lt;h3 id=&#34;using-bayes-inference-to-estimate-parameter-in-a-predictive-model&#34;&gt;Using Bayes inference to estimate parameter in a predictive model&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 2: Belief, Probbility, and Exchangeability</title>
+      <link>http://localhost:1313/book/firstcoursebayes/ch2_belief_prob_exchangeability/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/firstcoursebayes/ch2_belief_prob_exchangeability/</guid>
+      <description>&lt;h2 id=&#34;belief-function-and-probability&#34;&gt;Belief function and Probability&lt;/h2&gt;
+&lt;h2 id=&#34;events-partitions-and-bayes-rule&#34;&gt;Events, partitions, and Bayes&amp;rsquo; rule&lt;/h2&gt;
+&lt;h2 id=&#34;independence&#34;&gt;Independence&lt;/h2&gt;
+&lt;h2 id=&#34;random-variables&#34;&gt;Random variables&lt;/h2&gt;
+&lt;h3 id=&#34;discrete-random-variables&#34;&gt;Discrete random variables&lt;/h3&gt;
+&lt;h3 id=&#34;continuous-random-variables&#34;&gt;Continuous random variables&lt;/h3&gt;
+&lt;h2 id=&#34;joint-distributions&#34;&gt;Joint distributions&lt;/h2&gt;
+&lt;h2 id=&#34;independent-random-variables&#34;&gt;Independent random variables&lt;/h2&gt;
+&lt;h2 id=&#34;exchangeability&#34;&gt;Exchangeability&lt;/h2&gt;
+&lt;h3 id=&#34;de-finettis-theorem&#34;&gt;De Finetti&amp;rsquo;s theorem&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 3: One-parameter models</title>
+      <link>http://localhost:1313/book/firstcoursebayes/ch3_one_prarameter_models/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/firstcoursebayes/ch3_one_prarameter_models/</guid>
+      <description>&lt;h2 id=&#34;binomial-model&#34;&gt;Binomial model&lt;/h2&gt;
+&lt;h2 id=&#34;poisson-model&#34;&gt;Poisson model&lt;/h2&gt;
+&lt;h2 id=&#34;exponential-model&#34;&gt;Exponential model&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>
