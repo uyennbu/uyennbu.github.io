@@ -24,6 +24,9 @@ theme = "PaperMod"
     ShowBreadCrumbs = true
     ShowReadingTime = true
     ShowPostNavLinks = true
+    ShowShareButtons = true
+    ShowToc = true
+
     math = true
 
     [params.homeInfoParams]
@@ -33,6 +36,14 @@ theme = "PaperMod"
     [[params.socialIcons]]
         name = "facebook"
         url = "https://www.facebook.com/bich.uyen.643513"
+    
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/uyen-nguyen-bich-3875862ba/"
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/nguyen451"
 
     [params.cover]
         linkFullImages = true
