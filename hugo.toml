@@ -1,4 +1,4 @@
-baseURL = "https://nguyen451.github.io/"
+baseURL = "https://uyennbu.github.io/"
 canonifyURLs = true    # chuyển mọi đường dẫn thành tuyệt đối dựa trên baseURL
 relativeURLs = false   # (tuỳ chọn) để link không bị chuyển thành tương đối
 languageCode = "en-us"
@@ -43,7 +43,7 @@ theme = "PaperMod"
 
     [[params.socialIcons]]
         name = "github"
-        url = "https://github.com/nguyen451"
+        url = "https://github.com/uyennbu"
 
     [params.cover]
         linkFullImages = true

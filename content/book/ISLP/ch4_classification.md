@@ -3,7 +3,7 @@ title: "Chapter 4: Classification"
 date: 2025-11-25
 draft: true
 series: ["ISLP"]
-tags: [statistics]
+tags: ["statistics", "machine learning"]
 ---
 As we all know, there are two main types of data: quantitative and qualitative. The linear regression models in previous chapters help us to predict quantitative responses. But what about qualitative ones? 
 
