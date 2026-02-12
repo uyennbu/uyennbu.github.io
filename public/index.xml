@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Uyen&#39;s blog</title>
-    <link>https://uyennbu.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://uyennbu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 3: Linear Regression (1)</title>
+      <link>http://localhost:1313/book/islp/ch3_1/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/islp/ch3_1/</guid>
+      <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &lt;code&gt;&amp;quot;An Introduction to Statistical Learning with applications in Python&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Trang resources để tải file sách pdf, tải code và data:  &lt;a href=&#34;https://www.statlearning.com/resources-python&#34;&gt;resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bài giảng của tác giả được cung cấp bởi đại học Stanford: &lt;a href=&#34;https://youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&amp;amp;si=wvVcrbaPvFn4x9wb&#34;&gt;Statistical Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Từ chương 3 này trở đi, ở đầu mỗi chương mình sẽ đặt ra một số câu hỏi quan trọng để ta cùng ngẫm nghĩ nhé. Các câu hỏi này sẽ được trả lời ở cuối chương.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (2)</title>
-      <link>https://uyennbu.github.io/book/islp/ch2_2/</link>
+      <link>http://localhost:1313/book/islp/ch2_2/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://uyennbu.github.io/book/islp/ch2_2/</guid>
+      <guid>http://localhost:1313/book/islp/ch2_2/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -24,9 +38,9 @@
     </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (1)</title>
-      <link>https://uyennbu.github.io/book/islp/ch2_1/</link>
+      <link>http://localhost:1313/book/islp/ch2_1/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://uyennbu.github.io/book/islp/ch2_1/</guid>
+      <guid>http://localhost:1313/book/islp/ch2_1/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -38,18 +52,18 @@
     </item>
     <item>
       <title>Các môn mình học tại HUS</title>
-      <link>https://uyennbu.github.io/book/studyinhus/ratingsubjects/</link>
+      <link>http://localhost:1313/book/studyinhus/ratingsubjects/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://uyennbu.github.io/book/studyinhus/ratingsubjects/</guid>
+      <guid>http://localhost:1313/book/studyinhus/ratingsubjects/</guid>
       <description>&lt;p&gt;Bài viết này thuộc series &amp;ldquo;Study in HUS&amp;rdquo;, nơi mình chia sẻ những cảm nhận và suy nghĩ của mình trong quá trình học tập lại HUS.&lt;/p&gt;
 &lt;h2 id=&#34;kì-học-thứ-3---kì-1-năm-2&#34;&gt;Kì học thứ 3 - kì 1 năm 2&lt;/h2&gt;
 &lt;p&gt;Học kì này mình học 21 tín, 1 tín kỹ năng mềm nên tính ra mình học 20 tín, 7 môn, không nhiều, không ít. Lúc mới vào năm học mình khá quyết tâm, gọi là khí thế hừng hực luôn. Nhưng về sau thì cũng có một thứ không như mong đợi, song mình cũng học được nhiều bài học và cũng quen được nhiều bạn mới. Nhìn chung, đây cũng là một học kì thành công, giúp mình trưởng thành hơn rất nhiều.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://uyennbu.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://uyennbu.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Mình tên là Nguyễn Bích Uyên, đang là sinh viên ngành khoa học dữ liệu tại trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội. Mình viết blog này để chia sẻ những kiến thức mình học được về thống kê, học máy, bảo vệ môi trường, những trải nghiệm của mình trong quá trình học tập tại HUS và nhiều thứ nho nhỏ khác trong cuộc sống của mình.&lt;/p&gt;</description>
     </item>
   </channel>
