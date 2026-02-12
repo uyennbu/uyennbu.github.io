@@ -153,10 +153,14 @@ Ta bắt đầu bằng một bài toán:">
     <h1 class="post-title entry-hint-parent">
       Chapter 2: Introduction to Statistical Learning (1)
     </h1>
-    <div class="post-meta"><span title='2026-01-16 00:00:00 +0000 UTC'>January 16, 2026</span>&nbsp;·&nbsp;<span>7 min</span>
+    <div class="post-meta"><span title='2026-01-16 00:00:00 +0000 UTC'>January 16, 2026</span>&nbsp;·&nbsp;<span>8 min</span>
 
 </div>
-  </header> <div class="toc">
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/img/coverImg/lovely3.jpg" alt="An image of lovely flowers">
+        
+</figure><div class="toc">
     <details >
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">Table of Contents</span>
@@ -269,7 +273,10 @@ $$Y \approx \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_pX_p$$</li>
 </ol>
 <p>Các tiếp cận này đơn giản hóa việc ước lượng hàm $f$ bằng cách đưa nó về ước lượng các tham số. Tuy nhiên, nhược điểm là mô hình được chọn ban đầu có thể rất khác với hàm $f$ thực tế. Để tránh điều này ta có thể dùng các mô hình phức tạp (<em>flexible models</em>), giúp fit nhiều dạng hàm có thể xảy ra hơn. Nhưng mô hình phức tạp hơn thì có nguy cơ xảy ra <em>overfitting</em> cao hơn (<em>overfitting</em> xảy ra khi mô hình học theo cả lỗi hay <em>noise</em> trong dữ liệu)</p>
 <h4 id="non-parametric-methods">Non-parametric methods<a hidden class="anchor" aria-hidden="true" href="#non-parametric-methods">#</a></h4>
-<p>Các phương pháp phi tham số không đặt giả định rõ ràng về dạng của $f$, mà tìm một ước lượng mà gần với các điểm dữ liệu nhất có thể mà không quá gồ ghề (<em>rough</em>)</p>
+<p>Các phương pháp phi tham số không đặt giả định rõ ràng về dạng của $f$, mà tìm một ước lượng mà gần với các điểm dữ liệu nhất có thể mà không quá gồ ghề (<em>rough</em>).</p>
+<p>Phương pháp phi tham số không đặt giả định về dạng của hàm $f$ đây có thể là điểm mạnh so với cách làm bên trên vì hàm $f$ giả định trong phương pháp tham số trên có thể rất khác với hàm $f$ thật. Tuy nhiên, phương pháp này lại yêu cầu lượng qaun sát rất lớn.</p>
+<p>Ví dụ: sử dụng thin-plate spline để ước lượng $f$: không đặt ra bất kì một dạng nào trước cho f mà đưa ra một ước lượng gần nhất có thể với dữ liệu. Trong hình dưới đây, sai số ước lượng trên tập train là 0 (<em>a rough thin-plate spline</em>). Tuy nhiên, trên thực tế khi fit một thin-plate spline, ta cần đặt ra mức độ mượt (<em>smoothness</em>) để tránh bị overfitting như hình
+<img alt="thin-plate spline" loading="lazy" src="http://localhost:1313/img/2_6.jpg"></p>
 <h3 id="213-sự-đánh-đổi-giữa-độ-chính-xác-và-khả-năng-giải-thích-của-mô-hình">2.1.3 Sự đánh đổi giữa độ chính xác và khả năng giải thích của mô hình<a hidden class="anchor" aria-hidden="true" href="#213-sự-đánh-đổi-giữa-độ-chính-xác-và-khả-năng-giải-thích-của-mô-hình">#</a></h3>
 <p>Mô hình càng phức tạp (càng <em>flexible</em>) thì khả năng giải thích càng kém (hãy nghĩ đến black box)</p>
 <p><img alt="A representation of the tradeoff between flexibility and interpretability" loading="lazy" src="https://www.stat.cmu.edu/~pfreeman/flexibility.png"></p>
@@ -283,15 +290,14 @@ $$Y \approx \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_pX_p$$</li>
 </li>
 <li>Học không giám sát: $x_i$ không có giá trị $y_i$ tương ứng, ta muốn tìm hiểu về mối quan hệ giữa các giá trị hay các observations với nhau.
 <ul>
-<li>Tiêu biểu như bài toán phân cụm (<em>clustering</em>)</li>
+<li>Tiêu biểu: bài toán phân cụm (<em>clustering</em>)</li>
 </ul>
 </li>
-<li>Học bán giám sát (<em>semi-supervised learning</em>): khi một phần dữ liệu có nhãn, một phần khác thì không.</li>
 </ul>
 <h3 id="215-hồi-quy-vs-phân-loại">2.1.5 Hồi quy vs phân loại<a hidden class="anchor" aria-hidden="true" href="#215-hồi-quy-vs-phân-loại">#</a></h3>
 <p>Các giá trị có thể là định lượng (<em>quantitative</em>) (các giá trị số như tuổi, chiều cao, &hellip;) hoặc định tính (<em>quanlitative</em>, hay <em>categorical</em>) (các giá trị phân loại như tình trạng hôn nhân, nhóm máu, &hellip;)</p>
-<p><strong>Hồi quy</strong> (<em>regression</em>): output $y$ là giá trị định lượng</p>
-<p><strong>Phân loại</strong> (<em>classification</em>): output $y$ là giá trị định tính</p>
+<p><strong>Hồi quy</strong> (<em>regression</em>): output $y$ là giá trị định lượng. Ví dụ: dự đoán danh số hay giá nhà, giá đất</p>
+<p><strong>Phân loại</strong> (<em>classification</em>): output $y$ là giá trị định tính. Ví dụ: phân loại loài hoa, phân loại xem một bạn học sinh có khả năng trượt hay qua môn, &hellip;</p>
 <hr>
 <p>Bài viết của mình có thể còn nhiều thiếu sót, mình rất vui nếu được nhận góp ý từ bạn đọc để bài viết hoàn thiện và trở nên tốt hơn. Chúc bạn một ngày tốt lành ☘️</p>
 <p>Email của mình : <a href="mailto:uyennguyen.nbu@gmail.com">uyennguyen.nbu@gmail.com</a></p>
