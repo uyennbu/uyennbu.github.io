@@ -6,14 +6,14 @@
     <description>Recent content in Statistics on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 3: Linear Regression (1)</title>
+      <title>Chapter 3: Linear Regression. (1): Hồi quy tuyến tính đơn</title>
       <link>http://localhost:1313/book/islp/ch3_1/</link>
-      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/book/islp/ch3_1/</guid>
-      <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
+      <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &lt;code&gt;&amp;quot;An Introduction to Statistical Learning with applications in Python&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Trang resources để tải file sách pdf, tải code và data:  &lt;a href=&#34;https://www.statlearning.com/resources-python&#34;&gt;resources&lt;/a&gt;&lt;/li&gt;

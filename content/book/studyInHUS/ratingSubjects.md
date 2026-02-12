@@ -2,6 +2,9 @@
 title: "Các môn mình học tại HUS"
 date: 2026-01-15
 draft: false
+cover:
+    image: /img/coverImg/lovely4.jpg
+    alt: An image of lovely flowers
 series: ["Study in HUS"]
 tags: ["university life", "HUS"]
 categories: [diary]

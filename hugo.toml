@@ -30,8 +30,13 @@ theme = "PaperMod"
     math = true
 
     [params.homeInfoParams]
-        Title = "Hi there"
-        Content = "Welcome to my blog. Here you can read about statistics, machine learning, environment and my journey at University of Science, Hanoi. Read fun! 😁"
+        Title = "Hello, have a fun and happy day! ☘️"
+        Content = """
+🌻 Xin chào, mình là Uyên và đây là bog nhỏ của mình, nơi mình chia sẻ về những kiến thức và những cảm nhận của cá nhân mình trong quá trình học đại học.
+
+🌻 Cảm ơn bạn vì đã giành thời gian cho mình, chúc bạn một ngày tốt lành :>.
+
+Ảnh hoa cover mình lấy trên Pinterest: https://www.pinterest.com/pin/3870349675132799/"""
 
     [[params.socialIcons]]
         name = "facebook"
@@ -46,7 +51,7 @@ theme = "PaperMod"
         url = "https://github.com/uyennbu"
 
     [params.cover]
-        linkFullImages = true
+        linkFullImages = false
 
 [menu]
     # [[menu.main]]
