@@ -52,7 +52,7 @@ theme = "PaperMod"
 
     [[params.socialIcons]]
         name = "email"
-        url = "uyennguyen.nbu@gmail.com"
+        url = "mailto:uyennguyen.nbu@gmail.com"
 
     [params.cover]
         linkFullImages = false
