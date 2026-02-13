@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Books on Uyen&#39;s blog</title>
-    <link>http://localhost:1313/book/</link>
+    <link>https://uyennbu.github.io/book/</link>
     <description>Recent content in Books on Uyen&#39;s blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/book/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://uyennbu.github.io/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 3: Linear Regression. (1): Hồi quy tuyến tính đơn</title>
-      <link>http://localhost:1313/book/islp/ch3_1/</link>
+      <link>https://uyennbu.github.io/book/islp/ch3_1/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch3_1/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch3_1/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &lt;code&gt;&amp;quot;An Introduction to Statistical Learning with applications in Python&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (2)</title>
-      <link>http://localhost:1313/book/islp/ch2_2/</link>
+      <link>https://uyennbu.github.io/book/islp/ch2_2/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch2_2/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch2_2/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (1)</title>
-      <link>http://localhost:1313/book/islp/ch2_1/</link>
+      <link>https://uyennbu.github.io/book/islp/ch2_1/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch2_1/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch2_1/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>Các môn mình học tại HUS</title>
-      <link>http://localhost:1313/book/studyinhus/ratingsubjects/</link>
+      <link>https://uyennbu.github.io/book/studyinhus/ratingsubjects/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/studyinhus/ratingsubjects/</guid>
+      <guid>https://uyennbu.github.io/book/studyinhus/ratingsubjects/</guid>
       <description>&lt;p&gt;Bài viết này thuộc series &amp;ldquo;Study in HUS&amp;rdquo;, nơi mình chia sẻ những cảm nhận và suy nghĩ của mình trong quá trình học tập lại HUS.&lt;/p&gt;
 &lt;h2 id=&#34;kì-học-thứ-3---kì-1-năm-2&#34;&gt;Kì học thứ 3 - kì 1 năm 2&lt;/h2&gt;
 &lt;p&gt;Học kì này mình học 21 tín, 1 tín kỹ năng mềm nên tính ra mình học 20 tín, 7 môn, không nhiều, không ít. Lúc mới vào năm học mình khá quyết tâm, gọi là khí thế hừng hực luôn. Nhưng về sau thì cũng có một thứ không như mong đợi, song mình cũng học được nhiều bài học và cũng quen được nhiều bạn mới. Nhìn chung, đây cũng là một học kì thành công, giúp mình trưởng thành hơn rất nhiều.&lt;/p&gt;</description>
