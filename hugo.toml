@@ -50,6 +50,10 @@ theme = "PaperMod"
         name = "github"
         url = "https://github.com/uyennbu"
 
+    [[params.socialIcons]]
+        name = "email"
+        url = "uyennguyen.nbu@gmail.com"
+
     [params.cover]
         linkFullImages = false
 
