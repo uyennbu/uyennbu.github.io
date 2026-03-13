@@ -20,6 +20,7 @@ theme = "PaperMod"
           inline = [['$', '$']]
 
 [params]
+    author = "Nguyen Bich Uyen"
     ShowMenu = true
     ShowBreadCrumbs = true
     ShowReadingTime = true
