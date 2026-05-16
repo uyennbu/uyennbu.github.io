@@ -11,7 +11,7 @@
 <meta name="description" content="">
 <meta name="author" content="Nguyen Bich Uyen">
 <link rel="canonical" href="https://uyennbu.github.io/">
-<link crossorigin="anonymous" href="https://uyennbu.github.io/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="https://uyennbu.github.io/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://uyennbu.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://uyennbu.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://uyennbu.github.io/favicon-32x32.png">
@@ -50,12 +50,6 @@
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -111,17 +105,17 @@
 </head>
 <body class="list" id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://uyennbu.github.io/" accesskey="h" title="Uyen&#39;s blog (Alt + H)">Uyen&#39;s blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -137,7 +131,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://uyennbu.github.io/series/" title="Series">
                     <span>Series</span>
@@ -166,7 +160,8 @@
     <header class="entry-header">
         <h1>Hello, have a fun and happy day! ☘️</h1>
     </header>
-    <div class="entry-content">
+    <div class="entry-content md-content">
+        
         <p>🌻 Xin chào, mình là Uyên và đây là bog nhỏ của mình, nơi mình chia sẻ về những kiến thức và những cảm nhận của cá nhân mình trong quá trình học đại học.</p>
 <p>🌻 Cảm ơn bạn vì đã giành thời gian cho mình, chúc bạn một ngày tốt lành :&gt;.</p>
 <p>Ảnh hoa cover mình lấy trên Pinterest: <a href="https://www.pinterest.com/pin/3870349675132799/">https://www.pinterest.com/pin/3870349675132799/</a></p>
@@ -226,7 +221,9 @@ Bài viết này để mình lưu lại một số nguồn học online mà mìn
 1. CS50 và Edx CS50: Introduction to Computer Science là khóa học online miễn phí đầu tiên mà mình học, lại còn là của một đại học lớn nữa. Mình vẫn cảm thấy rất may mắn vì đã biết đến khóa học này. Mình chưa bao giờ thấy một lớp học nào mà lại thú vị như thế, tất cả những khái niệm về khoa học máy tính, lập trình đều được giáo sư David J Malan trình bày rất dễ hiểu, rất tự nhiên và sinh động. Nó không đem lại cho mình cảm giác là mình đang học một thứ gì đó cao siêu, mà là một điều rất gần gũi, thật sự rất thú vị. Đến bây giờ, khi mở ra nghe lại mình vẫn thấy nó rất hay, và vẫn luôn học được thứ gì đó mới. Cảm ơn team CS50 rất nhiều.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-05-16 00:00:00 +0000 UTC'>May 16, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
+  <footer class="entry-footer">
+
+<span title='2026-05-16 00:00:00 +0000 UTC'>May 16, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
   <a class="entry-link" aria-label="post link to Một số nguồn học online và vài tâm sự của mình" href="https://uyennbu.github.io/book/studyinhus/online_studying/"></a>
 </article>
 
@@ -242,7 +239,9 @@ Bài viết này để mình lưu lại một số nguồn học online mà mìn
     <p>Bài viết này giải thích ngắn gọn về ANOVA (phân tích phương sai một nhân tố - Analysis of variance). Bài viết dựa trên video giải thích về ANOVA: Statistics 101: ANOVA, A Visual Introduction và phần phân tích phương sai một nhân tố trong giáo trình &#34;Thống kê và ứng dụng&#34; của thầy Đặng Hùng Thắng
 ANOVA được sử dụng khi nào? Ta sử dụng ANOVA cho bài toán so sánh nhiều giá trị trung bình của nhiều tập hợp chính có phân phối chuẩn. Cụ thể, ta có $k$ đại lượng ngẫu nhiên $X_1, X_2, ..., X_k$ trong đó $X_i \sim N(\mu_i, \sigma_i^2)$. Cả $\mu_i$ và $\sigma_i$ ta đều chưa biết nhưng ta giả thiết rằng $\sigma_1 = \sigma_2 = ... = \sigma_k$. Chúng ta muốn kiểm định xem các giá trị trung bình $\mu_i$ có bằng nhau không: ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-03-14 00:00:00 +0000 UTC'>March 14, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
+  <footer class="entry-footer">
+
+<span title='2026-03-14 00:00:00 +0000 UTC'>March 14, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
   <a class="entry-link" aria-label="post link to Tản mạn về ANOVA một nhân tố" href="https://uyennbu.github.io/book/statistics/assessing/anova/"></a>
 </article>
 
@@ -258,7 +257,9 @@ ANOVA được sử dụng khi nào? Ta sử dụng ANOVA cho bài toán so sán
     <p>Bài viết này có mục đích rất đơn giản: giải thích $R^2$ là gì. Bài viết được tham khảo trong cuốn &#34;Introduction to Linear Regression Analysis fifth edition&#34; của Douglas C. Montgomery, Elizabeth A. Peck, và G. Geoffrey Vining, bạn đọc nếu muốn tìm hiểu sâu hơn về chủ đề này có thể đọc thêm trong chương 2, phần 2.3.3 Analysis of variance.
 Ý nghĩa của $R^2$ $R^2$ là một trong những hệ số đánh giá mô hình đầu tiên mà mình được học. Chính xác là mình đọc về nó trong ISLP, nhưng khi ấy mặc dù đã đọc phần giải thích ý nghĩa của $R^2$ trong sách nhưng mình vẫn không thật sự hiểu nó là gì. Mình đọc được và hiểu nôm la là, $R^2$ là tỉ lệ sự sai khác, hay sự phân tán trong dữ liệu (variance) mà mô hình giải thích được nhưng sự sai khác đó là gì, tại sao lại có sự sai khác đó thì mình không biết. Ngay cả công thức trong sách đưa ra cũng làm mình cảm thấy hơi bứt rứt. Công thức để tính $R^2$ mà ta hay gặp là: ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-03-13 00:00:00 +0000 UTC'>March 13, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
+  <footer class="entry-footer">
+
+<span title='2026-03-13 00:00:00 +0000 UTC'>March 13, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
   <a class="entry-link" aria-label="post link to Tản mạn về R^2" href="https://uyennbu.github.io/book/statistics/assessing/r2/"></a>
 </article>
 
@@ -275,7 +276,9 @@ ANOVA được sử dụng khi nào? Ta sử dụng ANOVA cho bài toán so sán
 Trang web của quyển sách: statlearning.com Trang resources để tải file sách pdf, tải code và data: resources Bài giảng của tác giả được cung cấp bởi đại học Stanford: Statistical Learning with Python Từ chương 3 này trở đi, ở đầu mỗi chương mình sẽ đặt ra một số câu hỏi quan trọng để ta cùng ngẫm nghĩ nhé. Các câu hỏi này sẽ được trả lời ở cuối chương.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-02-12 00:00:00 +0000 UTC'>February 12, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
+  <footer class="entry-footer">
+
+<span title='2026-02-12 00:00:00 +0000 UTC'>February 12, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 3: Linear Regression. (1): Hồi quy tuyến tính đơn" href="https://uyennbu.github.io/book/islp/ch3_1/"></a>
 </article>
 
@@ -292,7 +295,9 @@ Trang web của quyển sách: statlearning.com Trang resources để tải file
 Trang web của quyển sách: statlearning.com Trang resources để tải file sách pdf, tải code và data: resources Bài giảng của tác giả được cung cấp bởi đại học Stanford: Statistical Learning with Python 2.2 Đánh giá sự chính xác Chúng ta cần nhiều phương pháp thay vì một cách duy nhất vì không có model nào là phù hợp với tất cả các tập dữ liệu. Với một tập dữ liệu nhất định có thể phù hợp với phương pháp này, nhưng một tập dữ liệu tương tự khác lại biểu hiện tốt hơn với phương pháp khác. Chọn cách tiếp cận đúng có lẽ là một trong những nhiệm vụ quan trọng nhất trên thực tế.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-01-17 00:00:00 +0000 UTC'>January 17, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
+  <footer class="entry-footer">
+
+<span title='2026-01-17 00:00:00 +0000 UTC'>January 17, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 2: Introduction to Statistical Learning (2)" href="https://uyennbu.github.io/book/islp/ch2_2/"></a>
 </article>
 
@@ -309,7 +314,9 @@ Trang web của quyển sách: statlearning.com Trang resources để tải file
 Trang web của quyển sách: statlearning.com Trang resources để tải file sách pdf, tải code và data: resources Bài giảng của tác giả được cung cấp bởi đại học Stanford: Statistical Learning with Python 2.1 Statistical learning là gì? Ta bắt đầu bằng một bài toán:
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-01-16 00:00:00 +0000 UTC'>January 16, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
+  <footer class="entry-footer">
+
+<span title='2026-01-16 00:00:00 +0000 UTC'>January 16, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
   <a class="entry-link" aria-label="post link to Chapter 2: Introduction to Statistical Learning (1)" href="https://uyennbu.github.io/book/islp/ch2_1/"></a>
 </article>
 
@@ -326,7 +333,9 @@ Trang web của quyển sách: statlearning.com Trang resources để tải file
 Kì học thứ 3 - kì 1 năm 2 Học kì này mình học 21 tín, 1 tín kỹ năng mềm nên tính ra mình học 20 tín, 7 môn, không nhiều, không ít. Lúc mới vào năm học mình khá quyết tâm, gọi là khí thế hừng hực luôn. Nhưng về sau thì cũng có một thứ không như mong đợi, song mình cũng học được nhiều bài học và cũng quen được nhiều bạn mới. Nhìn chung, đây cũng là một học kì thành công, giúp mình trưởng thành hơn rất nhiều.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
+  <footer class="entry-footer">
+
+<span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span></footer>
   <a class="entry-link" aria-label="post link to Các môn mình học tại HUS" href="https://uyennbu.github.io/book/studyinhus/ratingsubjects/"></a>
 </article>
     </main>
@@ -334,15 +343,19 @@ Kì học thứ 3 - kì 1 năm 2 Học kì này mình học 21 tín, 1 tín kỹ
 <footer class="footer">
         <span>&copy; 2026 <a href="https://uyennbu.github.io/">Uyen&#39;s blog</a></span> · 
 
+    
+    
     <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -381,14 +394,13 @@ Kì học thứ 3 - kì 1 năm 2 Học kì này mình học 21 tín, 1 tín kỹ
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
