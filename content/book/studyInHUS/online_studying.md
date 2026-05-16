@@ -3,7 +3,7 @@ title: "Một số nguồn học online và vài tâm sự của mình"
 date: 2026-05-16
 draft: false
 cover:
-    image: /img/coverImg/lovely4.jpg
+    image: /img/coverImg/lovely2.jpg
     alt: An image of lovely flowers
 series: ["Study in HUS"]
 tags: ["university life", "HUS"]
