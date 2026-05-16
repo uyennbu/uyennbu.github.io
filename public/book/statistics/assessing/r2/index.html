@@ -14,7 +14,7 @@ $R^2$ là một trong những hệ số đánh giá mô hình đầu tiên mà m
 ">
 <meta name="author" content="Nguyen Bich Uyen">
 <link rel="canonical" href="https://uyennbu.github.io/book/statistics/assessing/r2/">
-<link crossorigin="anonymous" href="https://uyennbu.github.io/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="https://uyennbu.github.io/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://uyennbu.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://uyennbu.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://uyennbu.github.io/favicon-32x32.png">
@@ -52,12 +52,6 @@ $R^2$ là một trong những hệ số đánh giá mô hình đầu tiên mà m
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -168,17 +162,17 @@ $R^2$ là một trong những hệ số đánh giá mô hình đầu tiên mà m
 </head>
 <body id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://uyennbu.github.io/" accesskey="h" title="Uyen&#39;s blog (Alt + H)">Uyen&#39;s blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -194,7 +188,7 @@ $R^2$ là một trong những hệ số đánh giá mô hình đầu tiên mà m
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://uyennbu.github.io/series/" title="Series">
                     <span>Series</span>
@@ -222,35 +216,46 @@ $R^2$ là một trong những hệ số đánh giá mô hình đầu tiên mà m
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://uyennbu.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://uyennbu.github.io/book/">Books</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="https://uyennbu.github.io/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://uyennbu.github.io/book/">Books</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
     <h1 class="post-title entry-hint-parent">
       Tản mạn về R^2
     </h1>
-    <div class="post-meta"><span title='2026-03-13 00:00:00 +0000 UTC'>March 13, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span>
+    <div class="post-meta">
+
+<span title='2026-03-13 00:00:00 +0000 UTC'>March 13, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span>
 
 </div>
   </header> 
 <figure class="entry-cover">
         <img loading="eager" src="https://uyennbu.github.io/img/coverImg/lovely4.jpg" alt="An image of lovely flowers">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#%c3%bd-ngh%c4%a9a-c%e1%bb%a7a" aria-label="Ý nghĩa của $R^2$">Ý nghĩa của $R^2$</a></li>
-                <li>
-                    <a href="#sau-%c4%91%c3%a2y-l%c3%a0-ph%e1%ba%a7n-ch%e1%bb%a9ng-minh-c%c3%b4ng-th%e1%bb%a9c" aria-label="Sau đây là phần chứng minh công thức $(1)$">Sau đây là phần chứng minh công thức $(1)$</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
+    <div class="inner"><ul>
+            <li>
+                <a href="#%c3%bd-ngh%c4%a9a-c%e1%bb%a7a" aria-label="Ý nghĩa của $R^2$">Ý nghĩa của $R^2$</a></li>
+            <li>
+                <a href="#sau-%c4%91%c3%a2y-l%c3%a0-ph%e1%ba%a7n-ch%e1%bb%a9ng-minh-c%c3%b4ng-th%e1%bb%a9c" aria-label="Sau đây là phần chứng minh công thức $(1)$">Sau đây là phần chứng minh công thức $(1)$</a>
+            </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><p>Bài viết này có mục đích rất đơn giản: giải thích $R^2$ là gì. Bài viết được tham khảo trong cuốn <code>&quot;Introduction to Linear Regression Analysis fifth edition&quot;</code> của <code> Douglas C. Montgomery, Elizabeth A. Peck, và G. Geoffrey Vining</code>, bạn đọc nếu muốn tìm hiểu sâu hơn về chủ đề này có thể đọc thêm trong chương 2, phần 2.3.3 Analysis of variance.</p>
+  <div class="post-content md-content"><p>Bài viết này có mục đích rất đơn giản: giải thích $R^2$ là gì. Bài viết được tham khảo trong cuốn <code>&quot;Introduction to Linear Regression Analysis fifth edition&quot;</code> của <code> Douglas C. Montgomery, Elizabeth A. Peck, và G. Geoffrey Vining</code>, bạn đọc nếu muốn tìm hiểu sâu hơn về chủ đề này có thể đọc thêm trong chương 2, phần 2.3.3 Analysis of variance.</p>
 <hr>
 <h3 id="ý-nghĩa-của">Ý nghĩa của $R^2$<a hidden class="anchor" aria-hidden="true" href="#ý-nghĩa-của">#</a></h3>
 <p>$R^2$ là một trong những hệ số đánh giá mô hình đầu tiên mà mình được học. Chính xác là mình đọc về nó trong ISLP, nhưng khi ấy mặc dù đã đọc phần giải thích ý nghĩa của $R^2$ trong sách nhưng mình vẫn không thật sự hiểu nó là gì. Mình đọc được và hiểu nôm la là, $R^2$ là tỉ lệ sự sai khác, hay sự phân tán trong dữ liệu (<em>variance</em>) mà mô hình giải thích được nhưng sự sai khác đó là gì, tại sao lại có sự sai khác đó thì mình không biết. Ngay cả công thức trong sách đưa ra cũng làm mình cảm thấy hơi bứt rứt. Công thức để tính $R^2$ mà ta hay gặp là:
@@ -328,12 +333,10 @@ $$<hr>
 <nav class="paginav">
   <a class="prev" href="https://uyennbu.github.io/book/statistics/assessing/anova/">
     <span class="title">« Prev</span>
-    <br>
     <span>Tản mạn về ANOVA một nhân tố</span>
   </a>
   <a class="next" href="https://uyennbu.github.io/book/islp/ch3_1/">
     <span class="title">Next »</span>
-    <br>
     <span>Chapter 3: Linear Regression. (1): Hồi quy tuyến tính đơn</span>
   </a>
 </nav>
@@ -413,15 +416,19 @@ $$<hr>
 <footer class="footer">
         <span>&copy; 2026 <a href="https://uyennbu.github.io/">Uyen&#39;s blog</a></span> · 
 
+    
+    
     <span>
         Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -460,14 +467,13 @@ $$<hr>
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
