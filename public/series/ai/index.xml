@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Uyen&#39;s blog</title>
+    <link>http://localhost:1313/series/ai/</link>
+    <description>Recent content in AI on Uyen&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Một số nguồn học online và vài tâm sự của mình</title>
+      <link>http://localhost:1313/book/ai/symbolic_intro/</link>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/ai/symbolic_intro/</guid>
+      <description>&lt;p&gt;Nhìn lại thì từ khi lên cấp 3 đến giờ mình đã thay đổi rất nhiều, đặc biệt là việc học và tự học. Mình đã biết cách khai thác tốt hơn các nguồn online trên mạng và thực sự cảm thấy rất may mắn vì điều đó.&lt;/p&gt;
+&lt;p&gt;Bài viết này để mình lưu lại một số nguồn học online mà mình tìm được.&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

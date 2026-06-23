@@ -2,10 +2,10 @@
 title: "Những lời đầu tiên" 
 date: 2026-01-09
 draft: true
-cover:
-    image: /img/intro.jpg
-    alt: Demo Cover Image
-    caption: An illustrative cover for the first demo
+# cover:
+#     image: /img/intro.jpg
+#     alt: Demo Cover Image
+#     caption: An illustrative cover for the first demo
 series: ["Study in HUS"]
 tags: ["university life", "HUS"]
 categories: [diary]

@@ -2,9 +2,9 @@
 title: "Tản mạn về ANOVA một nhân tố"
 date: 2026-03-14
 draft: false
-cover:
-    image: /img/coverImg/lovely3.jpg
-    alt: An image of lovely flowers
+# cover:
+#     image: /img/coverImg/lovely3.jpg
+#     alt: An image of lovely flowers
 series: ["ISLP"]
 tags: ["statistics", "machine learning"]
 ---

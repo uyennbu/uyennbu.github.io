@@ -31,13 +31,9 @@ theme = "PaperMod"
     math = true
 
     [params.homeInfoParams]
-        Title = "Hello, have a fun and happy day! ☘️"
+        Title = "Hello, have a fun and happy day!"
         Content = """
-🌻 Xin chào, mình là Uyên và đây là bog nhỏ của mình, nơi mình chia sẻ về những kiến thức và những cảm nhận của cá nhân mình trong quá trình học đại học. 
-
-🌻 Cảm ơn bạn vì đã giành thời gian cho mình, chúc bạn một ngày tốt lành :>.
-
-Ảnh hoa cover mình lấy trên Pinterest: https://www.pinterest.com/pin/3870349675132799/"""
+🌻 Cảm ơn bạn vì đã giành thời gian cho mình, chúc bạn một ngày tốt lành :>."""
 
     [[params.socialIcons]]
         name = "facebook"
