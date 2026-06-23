@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Books on Uyen&#39;s blog</title>
-    <link>http://localhost:1313/book/</link>
+    <link>https://uyennbu.github.io/book/</link>
     <description>Recent content in Books on Uyen&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/book/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://uyennbu.github.io/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Symbolic AI (1): introduction and example</title>
-      <link>http://localhost:1313/book/ai/symbolic_intro/</link>
+      <title>Symbolic AI (1): Introduction and example</title>
+      <link>https://uyennbu.github.io/book/ai/symbolic_intro/</link>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/ai/symbolic_intro/</guid>
+      <guid>https://uyennbu.github.io/book/ai/symbolic_intro/</guid>
       <description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Materials: &lt;a href=&#34;https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link&#34;&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -21,10 +21,31 @@
 &lt;p&gt;Symbolic AI is a whole difference approach from Machine Learning, which harnessing the power of data and statistical methods, but using knowledge and logic based instead.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Symbolic AI (2): The Math of Logic</title>
+      <link>https://uyennbu.github.io/book/ai/symbolic_math/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://uyennbu.github.io/book/ai/symbolic_math/</guid>
+      <description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Materials: &lt;a href=&#34;https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link&#34;&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;proposition-logic&#34;&gt;Proposition Logic&lt;/h2&gt;
+&lt;h2 id=&#34;fisrt-order-language&#34;&gt;Fisrt Order Language&lt;/h2&gt;
+&lt;h2 id=&#34;fuzzy-logic&#34;&gt;Fuzzy Logic&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Symbolic AI (3): Examples</title>
+      <link>https://uyennbu.github.io/book/ai/symbolic_examples/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://uyennbu.github.io/book/ai/symbolic_examples/</guid>
+      <description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Materials: &lt;a href=&#34;https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link&#34;&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
       <title>Một số nguồn học online và vài tâm sự của mình</title>
-      <link>http://localhost:1313/book/studyinhus/online_studying/</link>
+      <link>https://uyennbu.github.io/book/studyinhus/online_studying/</link>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/studyinhus/online_studying/</guid>
+      <guid>https://uyennbu.github.io/book/studyinhus/online_studying/</guid>
       <description>&lt;p&gt;Nhìn lại thì từ khi lên cấp 3 đến giờ mình đã thay đổi rất nhiều, đặc biệt là việc học và tự học. Mình đã biết cách khai thác tốt hơn các nguồn online trên mạng và thực sự cảm thấy rất may mắn vì điều đó.&lt;/p&gt;
 &lt;p&gt;Bài viết này để mình lưu lại một số nguồn học online mà mình tìm được.&lt;/p&gt;
 &lt;hr&gt;
@@ -33,9 +54,9 @@
     </item>
     <item>
       <title>Tản mạn về ANOVA một nhân tố</title>
-      <link>http://localhost:1313/book/statistics/assessing/anova/</link>
+      <link>https://uyennbu.github.io/book/statistics/assessing/anova/</link>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/statistics/assessing/anova/</guid>
+      <guid>https://uyennbu.github.io/book/statistics/assessing/anova/</guid>
       <description>&lt;p&gt;Bài viết này giải thích ngắn gọn về ANOVA (phân tích phương sai một nhân tố - Analysis of variance). Bài viết dựa trên video giải thích về ANOVA: &lt;a href=&#34;https://youtu.be/0Vj2V2qRU10?si=cCbleiHNv3rjqqFY&#34;&gt;Statistics 101: ANOVA, A Visual Introduction&lt;/a&gt; và phần phân tích phương sai một nhân tố trong giáo trình &lt;code&gt;&amp;quot;Thống kê và ứng dụng&amp;quot;&lt;/code&gt; của thầy &lt;code&gt;Đặng Hùng Thắng&lt;/code&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;anova-được-sử-dụng-khi-nào&#34;&gt;ANOVA được sử dụng khi nào?&lt;/h3&gt;
@@ -44,9 +65,9 @@
     </item>
     <item>
       <title>Tản mạn về R^2</title>
-      <link>http://localhost:1313/book/statistics/assessing/r2/</link>
+      <link>https://uyennbu.github.io/book/statistics/assessing/r2/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/statistics/assessing/r2/</guid>
+      <guid>https://uyennbu.github.io/book/statistics/assessing/r2/</guid>
       <description>&lt;p&gt;Bài viết này có mục đích rất đơn giản: giải thích $R^2$ là gì. Bài viết được tham khảo trong cuốn &lt;code&gt;&amp;quot;Introduction to Linear Regression Analysis fifth edition&amp;quot;&lt;/code&gt; của &lt;code&gt; Douglas C. Montgomery, Elizabeth A. Peck, và G. Geoffrey Vining&lt;/code&gt;, bạn đọc nếu muốn tìm hiểu sâu hơn về chủ đề này có thể đọc thêm trong chương 2, phần 2.3.3 Analysis of variance.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;ý-nghĩa-của&#34;&gt;Ý nghĩa của $R^2$&lt;/h3&gt;
@@ -55,9 +76,9 @@
     </item>
     <item>
       <title>Chapter 3: Linear Regression. (3): Một số vấn đề khác</title>
-      <link>http://localhost:1313/book/islp/ch3_3/</link>
+      <link>https://uyennbu.github.io/book/islp/ch3_3/</link>
       <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch3_3/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch3_3/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &lt;code&gt;&amp;quot;An Introduction to Statistical Learning with applications in Python&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -70,9 +91,9 @@
     </item>
     <item>
       <title>Chapter 3: Linear Regression. (1): Hồi quy tuyến tính đơn</title>
-      <link>http://localhost:1313/book/islp/ch3_1/</link>
+      <link>https://uyennbu.github.io/book/islp/ch3_1/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch3_1/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch3_1/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &lt;code&gt;&amp;quot;An Introduction to Statistical Learning with applications in Python&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -84,9 +105,9 @@
     </item>
     <item>
       <title>Chapter 3: Linear Regression. (2): Hồi quy tuyến tính bội</title>
-      <link>http://localhost:1313/book/islp/ch3_2/</link>
+      <link>https://uyennbu.github.io/book/islp/ch3_2/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch3_2/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch3_2/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &lt;code&gt;&amp;quot;An Introduction to Statistical Learning with applications in Python&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -100,9 +121,9 @@
     </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (2)</title>
-      <link>http://localhost:1313/book/islp/ch2_2/</link>
+      <link>https://uyennbu.github.io/book/islp/ch2_2/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch2_2/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch2_2/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -114,9 +135,9 @@
     </item>
     <item>
       <title>Chapter 2: Introduction to Statistical Learning (1)</title>
-      <link>http://localhost:1313/book/islp/ch2_1/</link>
+      <link>https://uyennbu.github.io/book/islp/ch2_1/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/islp/ch2_1/</guid>
+      <guid>https://uyennbu.github.io/book/islp/ch2_1/</guid>
       <description>&lt;p&gt;Bài viết nằm trong series ISLP, là series mình tóm tắt lại những gì mình đọc trong cuốn &amp;ldquo;An Introduction to Statistical Learning with applications in Python&amp;rdquo;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Trang web của quyển sách: &lt;a href=&#34;https://www.statlearning.com/&#34;&gt;statlearning.com&lt;/a&gt;&lt;/li&gt;
@@ -128,9 +149,9 @@
     </item>
     <item>
       <title>Các môn mình học tại HUS</title>
-      <link>http://localhost:1313/book/studyinhus/ratingsubjects/</link>
+      <link>https://uyennbu.github.io/book/studyinhus/ratingsubjects/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/studyinhus/ratingsubjects/</guid>
+      <guid>https://uyennbu.github.io/book/studyinhus/ratingsubjects/</guid>
       <description>&lt;p&gt;Bài viết này thuộc series &amp;ldquo;Study in HUS&amp;rdquo;, nơi mình chia sẻ những cảm nhận và suy nghĩ của mình trong quá trình học tập lại HUS.&lt;/p&gt;
 &lt;h2 id=&#34;kì-học-thứ-3---kì-1-năm-2&#34;&gt;Kì học thứ 3 - kì 1 năm 2&lt;/h2&gt;
 &lt;p&gt;Học kì này mình học 21 tín, 1 tín kỹ năng mềm nên tính ra mình học 20 tín, 7 môn, không nhiều, không ít. Lúc mới vào năm học mình khá quyết tâm, gọi là khí thế hừng hực luôn. Nhưng về sau thì cũng có một thứ không như mong đợi, song mình cũng học được nhiều bài học và cũng quen được nhiều bạn mới. Nhìn chung, đây cũng là một học kì thành công, giúp mình trưởng thành hơn rất nhiều.&lt;/p&gt;</description>
