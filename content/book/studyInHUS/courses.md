@@ -22,7 +22,7 @@ Bài viết này để mình lưu lại một số nguồn học online mà mìn
 ## Statistics
 ### Bayesian Statistics
 ## Deap learning
-- Hands - on
+- Hands - on: [mit](https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/)
 ## AI
 
 

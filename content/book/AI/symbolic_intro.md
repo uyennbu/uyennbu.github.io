@@ -1,7 +1,7 @@
 ---
 title: "Symbolic AI (1): Introduction and example"
 date: 2026-06-23
-draft: false
+draft: true
 # cover:
 #     image: /img/coverImg/lovely2.jpg
 #     alt: An image of lovely flowers
