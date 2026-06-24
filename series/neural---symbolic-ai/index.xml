@@ -1,13 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Neural - Symbolic AI on Uyen's blog</title><link>https://uyennbu.github.io/series/neural---symbolic-ai/</link><description>Recent content in Neural - Symbolic AI on Uyen's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://uyennbu.github.io/series/neural---symbolic-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Symbolic AI (1): Introduction and example</title><link>https://uyennbu.github.io/book/ai/symbolic_intro/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><guid>https://uyennbu.github.io/book/ai/symbolic_intro/</guid><description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Materials: &lt;a href="https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link"&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Neural - Symbolic AI on Uyen&#39;s blog</title>
+    <link>https://uyennbu.github.io/series/neural---symbolic-ai/</link>
+    <description>Recent content in Neural - Symbolic AI on Uyen&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://uyennbu.github.io/series/neural---symbolic-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Symbolic AI (1): Introduction and example</title>
+      <link>https://uyennbu.github.io/book/ai/symbolic_intro/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://uyennbu.github.io/book/ai/symbolic_intro/</guid>
+      <description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Materials: &lt;a href=&#34;https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link&#34;&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="what-is-symbolic-ai"&gt;What is symbolic AI?&lt;/h2&gt;
-&lt;p&gt;Symbolic Artificial Intelligence (A Good OldFashioned AI - GOAI) is the term for the collection of all methods in artificial intelligence research that are based on high-level &amp;ldquo;symbolic&amp;rdquo; (human-readable) representations of problems, logic and search. &lt;a href="https://caiml.org/dighum/summerschool2023/program/stefan-woltran-symbolic-ai.pdf"&gt;See Stefan Woltran slides&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Symbolic AI is a whole difference approach from Machine Learning, which harnessing the power of data and statistical methods, but using knowledge and logic based instead.&lt;/p&gt;</description></item><item><title>Symbolic AI (2): The Math of Logic</title><link>https://uyennbu.github.io/book/ai/symbolic_math/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><guid>https://uyennbu.github.io/book/ai/symbolic_math/</guid><description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Materials: &lt;a href="https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link"&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-symbolic-ai&#34;&gt;What is symbolic AI?&lt;/h2&gt;
+&lt;p&gt;Symbolic Artificial Intelligence (A Good OldFashioned AI - GOAI) is the term for the collection of all methods in artificial intelligence research that are based on high-level &amp;ldquo;symbolic&amp;rdquo; (human-readable) representations of problems, logic and search. &lt;a href=&#34;https://caiml.org/dighum/summerschool2023/program/stefan-woltran-symbolic-ai.pdf&#34;&gt;See Stefan Woltran slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Symbolic AI is a whole difference approach from Machine Learning, which harnessing the power of data and statistical methods, but using knowledge and logic based instead.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Symbolic AI (2): The Math of Logic</title>
+      <link>https://uyennbu.github.io/book/ai/symbolic_math/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://uyennbu.github.io/book/ai/symbolic_math/</guid>
+      <description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Materials: &lt;a href=&#34;https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link&#34;&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="proposition-logic"&gt;Proposition Logic&lt;/h2&gt;
-&lt;h2 id="fisrt-order-language"&gt;Fisrt Order Language&lt;/h2&gt;
-&lt;h2 id="fuzzy-logic"&gt;Fuzzy Logic&lt;/h2&gt;</description></item><item><title>Symbolic AI (3): Examples</title><link>https://uyennbu.github.io/book/ai/symbolic_examples/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><guid>https://uyennbu.github.io/book/ai/symbolic_examples/</guid><description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Materials: &lt;a href="https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link"&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;</description></item></channel></rss>
+&lt;h2 id=&#34;proposition-logic&#34;&gt;Proposition Logic&lt;/h2&gt;
+&lt;h2 id=&#34;fisrt-order-language&#34;&gt;Fisrt Order Language&lt;/h2&gt;
+&lt;h2 id=&#34;fuzzy-logic&#34;&gt;Fuzzy Logic&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Symbolic AI (3): Examples</title>
+      <link>https://uyennbu.github.io/book/ai/symbolic_examples/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://uyennbu.github.io/book/ai/symbolic_examples/</guid>
+      <description>&lt;p&gt;This post belong to series &lt;code&gt;neural - symbolic AI&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Materials: &lt;a href=&#34;https://www.notion.so/Symbolic-AI-3827d3e8b76f8066bc81c7117132cc10?source=copy_link&#34;&gt;Notion page for GOAI&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

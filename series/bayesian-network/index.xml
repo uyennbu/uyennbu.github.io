@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bayesian Network on Uyen's blog</title><link>https://uyennbu.github.io/series/bayesian-network/</link><description>Recent content in Bayesian Network on Uyen's blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://uyennbu.github.io/series/bayesian-network/index.xml" rel="self" type="application/rss+xml"/><item><title>Bayesian Networks: Introduction</title><link>https://uyennbu.github.io/book/ai/bayesnet/</link><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate><guid>https://uyennbu.github.io/book/ai/bayesnet/</guid><description>&lt;p&gt;Dưới đây là một số slide về Bayesian Networks được mình tóm tắt dựa trên slide bài giảng của Đại học Oxford và cuốn &lt;code&gt;Bayesian Networks in R&lt;/code&gt; của Radhakrishnan Nagarajan, Marco Scutari và Sophie Lèbre.&lt;/p&gt;
+&lt;p&gt;Slides gốc: &lt;a href="https://www.bnlearn.com/about/teaching/slides-bnshort.pdf"&gt;(Marco Scutari) Understanding Bayesian Networks with Examples in R&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://canva.link/2sh15j9aid4vz29"&gt;Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://canva.link/nhdm3sif9vh32e4"&gt;Belief propagation &amp;amp; classification&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://canva.link/sh3x518qcsanodt"&gt;Building BNs from discrete data&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;Mọi góp ý về bài viết qua xin được gửi qua email: &lt;a href="mailto:uyennguyen.nbu@gmail.com"&gt;uyennguyen.nbu@gmail.com&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
