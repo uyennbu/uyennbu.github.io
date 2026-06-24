@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI on Uyen&#39;s blog</title>
-    <link>http://localhost:1313/tags/ai/</link>
+    <link>https://uyennbu.github.io/tags/ai/</link>
     <description>Recent content in AI on Uyen&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://uyennbu.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Symbolic AI (3): Examples</title>
-      <link>http://localhost:1313/book/ai/bayesnet/</link>
+      <title>Bayesian Networks: Introduction</title>
+      <link>https://uyennbu.github.io/book/ai/bayesnet/</link>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/ai/bayesnet/</guid>
+      <guid>https://uyennbu.github.io/book/ai/bayesnet/</guid>
       <description>&lt;p&gt;Dưới đây là một số slide về Bayesian Networks được mình tóm tắt dựa trên slide bài giảng của Đại học Oxford và cuốn &lt;code&gt;Bayesian Networks in R&lt;/code&gt; của Radhakrishnan Nagarajan, Marco Scutari và Sophie Lèbre.&lt;/p&gt;
+&lt;p&gt;Slides gốc: &lt;a href=&#34;https://www.bnlearn.com/about/teaching/slides-bnshort.pdf&#34;&gt;(Marco Scutari) Understanding Bayesian Networks with Examples in R&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://canva.link/2sh15j9aid4vz29&#34;&gt;Introduction&lt;/a&gt;&lt;/p&gt;
