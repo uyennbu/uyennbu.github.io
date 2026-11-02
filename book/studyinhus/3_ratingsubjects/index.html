@@ -12,7 +12,7 @@ Kì học thứ 3 - kì 1 năm 2
 Học kì này mình học 21 tín, 1 tín kỹ năng mềm nên tính ra mình học 20 tín, 7 môn, không nhiều, không ít. Lúc mới vào năm học mình khá quyết tâm, gọi là khí thế hừng hực luôn. Nhưng về sau thì cũng có một thứ không như mong đợi, song mình cũng học được nhiều bài học và cũng quen được nhiều bạn mới. Nhìn chung, đây cũng là một học kì thành công, giúp mình trưởng thành hơn rất nhiều.">
 <meta name="author" content="Nguyen Bich Uyen">
 <link rel="canonical" href="https://uyennbu.github.io/book/studyinhus/3_ratingsubjects/">
-<link crossorigin="anonymous" href="https://uyennbu.github.io/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="https://uyennbu.github.io/assets/css/stylesheet.95ae6e9689bd0037456375629f411acbf8ed76e0e9a7599900ad281f9526dee6.css" integrity="sha256-la5ulom9ADdFY3Vin0Eay/jtduDpp1mZAK0oH5Um3uY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://uyennbu.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://uyennbu.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://uyennbu.github.io/favicon-32x32.png">
@@ -228,7 +228,7 @@ Kì học thứ 3 - kì 1 năm 2 Học kì này mình học 21 tín, 1 tín kỹ
     </h1>
     <div class="post-meta">
 
-<span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span>
+<span title='2026-01-15T00:00:00+00:00'>January 15, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>Nguyen Bich Uyen</span>
 
 </div>
   </header> <details class="toc" >
@@ -399,22 +399,34 @@ Kì học thứ 3 - kì 1 năm 2 Học kì này mình học 21 tín, 1 tín kỹ
             menu.scrollLeft = parseInt(scrollPosition, 10);
         }
         
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
+        
+        let menuScrollTimeout;
+        menu.addEventListener("scroll", function () {
+            clearTimeout(menuScrollTimeout);
+            menuScrollTimeout = setTimeout(function () {
+                localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+            }, 150);
+        }, { passive: true });
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
             var id = this.getAttribute("href").substr(1);
+            const target = document.querySelector(`[id='${decodeURIComponent(id)}']`);
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                target.scrollIntoView({
                     behavior: "smooth"
                 });
             } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+                target.scrollIntoView();
             }
+            
+            
+            if (target.tabIndex < 0 && !target.hasAttribute("tabindex")) {
+                target.setAttribute("tabindex", "-1");
+            }
+            target.focus({ preventScroll: true });
             if (id === "top") {
                 history.replaceState(null, null, " ");
             } else {
@@ -426,14 +438,20 @@ Kì học thứ 3 - kì 1 năm 2 Học kì này mình học 21 tín, 1 tín kỹ
 </script>
 <script>
     var toplink = document.getElementById("top-link");
-    window.onscroll = function () {
-        const scrollThreshold = window.innerHeight;
-        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
-            toplink.classList.remove("hidden");
-        } else {
-            toplink.classList.add("hidden");
+    var scrollTicking = false;
+    
+    window.addEventListener("scroll", function () {
+        if (scrollTicking) {
+            return;
         }
-    };
+        scrollTicking = true;
+        requestAnimationFrame(function () {
+            const scrollThreshold = window.innerHeight;
+            const shown = document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold;
+            toplink.classList.toggle("hidden", !shown);
+            scrollTicking = false;
+        });
+    }, { passive: true });
 
 </script>
 <script>
